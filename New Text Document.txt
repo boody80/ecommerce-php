@@ -1,0 +1,16 @@
+index
+about
+contact
+shop
+single product
+product categories
+cart
+checkout
+user account
+sign in 
+sign up
+password recovery
+wishlist
+404 error
+order tracking
+dashboard
