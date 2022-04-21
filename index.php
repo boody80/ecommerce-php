@@ -91,7 +91,7 @@ include 'header.php';
         <div class="modal-dialog modal-xl">
           <div class="modal-content">
             <div class="modal-header">
-              <h4 class="modal-title product-title"><a href="shop-single-v1.html" data-bs-toggle="tooltip" data-bs-placement="right" title="Go to product page">Sports Hooded Sweatshirt<i class="ci-arrow-right fs-lg ms-2"></i></a></h4>
+              <h4 class="modal-title product-title"><a href="shop-single-v1.php" data-bs-toggle="tooltip" data-bs-placement="right" title="Go to product page">Sports Hooded Sweatshirt<i class="ci-arrow-right fs-lg ms-2"></i></a></h4>
               <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -119,7 +119,7 @@ include 'header.php';
                 <!-- Product details-->
                 <div class="col-lg-5 pt-4 pt-lg-0 image-zoom-pane">
                   <div class="product-details ms-auto pb-3">
-                    <div class="d-flex justify-content-between align-items-center mb-2"><a href="shop-single-v1.html#reviews">
+                    <div class="d-flex justify-content-between align-items-center mb-2"><a href="shop-single-v1.php#reviews">
                         <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star"></i>
                         </div><span class="d-inline-block fs-sm text-body align-middle mt-1 ms-1">74 Reviews</span></a>
                       <button class="btn-wishlist" type="button" data-bs-toggle="tooltip" title="Add to wishlist"><i class="ci-heart"></i></button>
@@ -229,7 +229,7 @@ include 'header.php';
         <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page.-->
         <div class="navbar-sticky bg-light">
           <div class="navbar navbar-expand-lg navbar-light">
-            <div class="container"><a class="navbar-brand d-none d-sm-block flex-shrink-0" href="index.php"><img src="img/logo-dark.png" width="142" alt="Cartzilla"></a><a class="navbar-brand d-sm-none flex-shrink-0 me-2" href="index.html"><img src="img/logo-icon.png" width="74" alt="Cartzilla"></a>
+            <div class="container"><a class="navbar-brand d-none d-sm-block flex-shrink-0" href="index.php"><img src="img/logo-dark.png" width="142" alt="Cartzilla"></a><a class="navbar-brand d-sm-none flex-shrink-0 me-2" href="index.php"><img src="img/logo-icon.png" width="74" alt="Cartzilla"></a>
               <div class="input-group d-none d-lg-flex mx-4">
                 <input class="form-control rounded-end pe-5" type="text" placeholder="Search for products"><i class="ci-search position-absolute top-50 end-0 translate-middle-y text-muted fs-base me-3"></i>
               </div>
@@ -239,7 +239,7 @@ include 'header.php';
                   <div class="navbar-tool-icon-box"><i class="navbar-tool-icon ci-heart"></i></div></a><a class="navbar-tool ms-1 ms-lg-0 me-n1 me-lg-2" href="#signin-modal" data-bs-toggle="modal">
                   <div class="navbar-tool-icon-box"><i class="navbar-tool-icon ci-user"></i></div>
                   <div class="navbar-tool-text ms-n3"><small>Hello, Sign in</small>My Account</div></a>
-                <div class="navbar-tool dropdown ms-3"><a class="navbar-tool-icon-box bg-secondary dropdown-toggle" href="shop-cart.php"><span class="navbar-tool-label">4</span><i class="navbar-tool-icon ci-cart"></i></a><a class="navbar-tool-text" href="shop-cart.html"><small>My Cart</small>$265.00</a>
+                <div class="navbar-tool dropdown ms-3"><a class="navbar-tool-icon-box bg-secondary dropdown-toggle" href="shop-cart.php"><span class="navbar-tool-label">4</span><i class="navbar-tool-icon ci-cart"></i></a><a class="navbar-tool-text" href="shop-cart.php"><small>My Cart</small>$265.00</a>
                   <!-- Cart dropdown-->
                   <div class="dropdown-menu dropdown-menu-end">
                     <div class="widget widget-cart px-3 pt-2 pb-3" style="width: 20rem;">
@@ -282,8 +282,8 @@ include 'header.php';
                         </div>
                       </div>
                       <div class="d-flex flex-wrap justify-content-between align-items-center py-3">
-                        <div class="fs-sm me-2 py-2"><span class="text-muted">Subtotal:</span><span class="text-accent fs-base ms-1">$265.<small>00</small></span></div><a class="btn btn-outline-secondary btn-sm" href="shop-cart.html">Expand cart<i class="ci-arrow-right ms-1 me-n1"></i></a>
-                      </div><a class="btn btn-primary btn-sm d-block w-100" href="checkout-details.html"><i class="ci-card me-2 fs-base align-middle"></i>Checkout</a>
+                        <div class="fs-sm me-2 py-2"><span class="text-muted">Subtotal:</span><span class="text-accent fs-base ms-1">$265.<small>00</small></span></div><a class="btn btn-outline-secondary btn-sm" href="shop-cart.php">Expand cart<i class="ci-arrow-right ms-1 me-n1"></i></a>
+                      </div><a class="btn btn-primary btn-sm d-block w-100" href="checkout-details.php"><i class="ci-card me-2 fs-base align-middle"></i>Checkout</a>
                     </div>
                   </div>
                 </div>
@@ -521,72 +521,72 @@ include 'header.php';
                         <ul class="dropdown-menu">
                           <li><a class="dropdown-item" href="navbar-1-level-light.php">1 Level Light</a></li>
                           <li><a class="dropdown-item" href="navbar-1-level-dark.php">1 Level Dark</a></li>
-                          <li><a class="dropdown-item" href="navbar-2-level-light.html">2 Level Light</a></li>
-                          <li><a class="dropdown-item" href="navbar-2-level-dark.html">2 Level Dark</a></li>
-                          <li><a class="dropdown-item" href="navbar-3-level-light.html">3 Level Light</a></li>
-                          <li><a class="dropdown-item" href="navbar-3-level-dark.html">3 Level Dark</a></li>
-                          <li><a class="dropdown-item" href="home-electronics-store.html">Electronics Store</a></li>
-                          <li><a class="dropdown-item" href="home-marketplace.html">Marketplace</a></li>
-                          <li><a class="dropdown-item" href="home-grocery-store.html">Side Menu (Grocery)</a></li>
+                          <li><a class="dropdown-item" href="navbar-2-level-light.php">2 Level Light</a></li>
+                          <li><a class="dropdown-item" href="navbar-2-level-dark.php">2 Level Dark</a></li>
+                          <li><a class="dropdown-item" href="navbar-3-level-light.php">3 Level Light</a></li>
+                          <li><a class="dropdown-item" href="navbar-3-level-dark.php">3 Level Dark</a></li>
+                          <li><a class="dropdown-item" href="home-electronics-store.php">Electronics Store</a></li>
+                          <li><a class="dropdown-item" href="home-marketplace.php">Marketplace</a></li>
+                          <li><a class="dropdown-item" href="home-grocery-store.php">Side Menu (Grocery)</a></li>
                         </ul>
                       </li>
                       <li class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="about.html">About Us</a></li>
-                      <li><a class="dropdown-item" href="contacts.html">Contacts</a></li>
+                      <li><a class="dropdown-item" href="about.php">About Us</a></li>
+                      <li><a class="dropdown-item" href="contacts.php">Contacts</a></li>
                       <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Help Center</a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="help-topics.html">Help Topics</a></li>
-                          <li><a class="dropdown-item" href="help-single-topic.html">Single Topic</a></li>
-                          <li><a class="dropdown-item" href="help-submit-request.html">Submit a Request</a></li>
+                          <li><a class="dropdown-item" href="help-topics.php">Help Topics</a></li>
+                          <li><a class="dropdown-item" href="help-single-topic.php">Single Topic</a></li>
+                          <li><a class="dropdown-item" href="help-submit-request.php">Submit a Request</a></li>
                         </ul>
                       </li>
                       <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">404 Not Found</a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="404-simple.html">404 - Simple Text</a></li>
-                          <li><a class="dropdown-item" href="404-illustration.html">404 - Illustration</a></li>
+                          <li><a class="dropdown-item" href="404-simple.php">404 - Simple Text</a></li>
+                          <li><a class="dropdown-item" href="404-illustration.php">404 - Illustration</a></li>
                         </ul>
                       </li>
                       <li class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="sticky-footer.html">Sticky Footer Demo</a></li>
+                      <li><a class="dropdown-item" href="sticky-footer.php">Sticky Footer Demo</a></li>
                     </ul>
                   </li>
                   <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Blog</a>
                     <ul class="dropdown-menu">
                       <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Blog List Layouts</a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="blog-list-sidebar.html">List with Sidebar</a></li>
-                          <li><a class="dropdown-item" href="blog-list.html">List no Sidebar</a></li>
+                          <li><a class="dropdown-item" href="blog-list-sidebar.php">List with Sidebar</a></li>
+                          <li><a class="dropdown-item" href="blog-list.php">List no Sidebar</a></li>
                         </ul>
                       </li>
                       <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Blog Grid Layouts</a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="blog-grid-sidebar.html">Grid with Sidebar</a></li>
-                          <li><a class="dropdown-item" href="blog-grid.html">Grid no Sidebar</a></li>
+                          <li><a class="dropdown-item" href="blog-grid-sidebar.php">Grid with Sidebar</a></li>
+                          <li><a class="dropdown-item" href="blog-grid.php">Grid no Sidebar</a></li>
                         </ul>
                       </li>
                       <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Single Post Layouts</a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="blog-single-sidebar.html">Article with Sidebar</a></li>
-                          <li><a class="dropdown-item" href="blog-single.html">Article no Sidebar</a></li>
+                          <li><a class="dropdown-item" href="blog-single-sidebar.php">Article with Sidebar</a></li>
+                          <li><a class="dropdown-item" href="blog-single.php">Article no Sidebar</a></li>
                         </ul>
                       </li>
                     </ul>
                   </li>
                   <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Docs / Components</a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="docs/dev-setup.html">
+                      <li><a class="dropdown-item" href="docs/dev-setup.php">
                           <div class="d-flex">
                             <div class="lead text-muted pt-1"><i class="ci-book"></i></div>
                             <div class="ms-2"><span class="d-block text-heading">Documentation</span><small class="d-block text-muted">Kick-start customization</small></div>
                           </div></a></li>
                       <li class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="components/typography.html">
+                      <li><a class="dropdown-item" href="components/typography.php">
                           <div class="d-flex">
                             <div class="lead text-muted pt-1"><i class="ci-server"></i></div>
                             <div class="ms-2"><span class="d-block text-heading">Components<span class="badge bg-info ms-2">40+</span></span><small class="d-block text-muted">Faster page building</small></div>
                           </div></a></li>
                       <li class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="docs/changelog.html">
+                      <li><a class="dropdown-item" href="docs/changelog.php">
                           <div class="d-flex">
                             <div class="lead text-muted pt-1"><i class="ci-edit"></i></div>
                             <div class="ms-2"><span class="d-block text-heading">Changelog<span class="badge bg-success ms-2">v2.4.0</span></span><small class="d-block text-muted">Regular updates</small></div>
@@ -616,7 +616,7 @@ include 'header.php';
                   <h3 class="h2 text-light fw-light pb-1 from-start">Has just arrived!</h3>
                   <h2 class="text-light display-5 from-start delay-1">Huge Summer Collection</h2>
                   <p class="fs-lg text-light pb-3 from-start delay-2">Swimwear, Tops, Shorts, Sunglasses &amp; much more...</p>
-                  <div class="d-table scale-up delay-4 mx-auto mx-lg-0"><a class="btn btn-primary" href="shop-grid-ls.html">Shop Now<i class="ci-arrow-right ms-2 me-n1"></i></a></div>
+                  <div class="d-table scale-up delay-4 mx-auto mx-lg-0"><a class="btn btn-primary" href="shop-grid-ls.php">Shop Now<i class="ci-arrow-right ms-2 me-n1"></i></a></div>
                 </div>
               </div>
             </div>
@@ -629,7 +629,7 @@ include 'header.php';
                   <h3 class="h2 text-light fw-light pb-1 from-bottom">Hurry up! Limited time offer.</h3>
                   <h2 class="text-light display-5 from-bottom delay-1">Women Sportswear Sale</h2>
                   <p class="fs-lg text-light pb-3 from-bottom delay-2">Sneakers, Keds, Sweatshirts, Hoodies &amp; much more...</p>
-                  <div class="d-table scale-up delay-4 mx-auto mx-lg-0"><a class="btn btn-primary" href="shop-grid-ls.html">Shop Now<i class="ci-arrow-right ms-2 me-n1"></i></a></div>
+                  <div class="d-table scale-up delay-4 mx-auto mx-lg-0"><a class="btn btn-primary" href="shop-grid-ls.php">Shop Now<i class="ci-arrow-right ms-2 me-n1"></i></a></div>
                 </div>
               </div>
             </div>
@@ -642,7 +642,7 @@ include 'header.php';
                   <h3 class="h2 text-light fw-light pb-1 from-top">Complete your look with</h3>
                   <h2 class="text-light display-5 from-top delay-1">New Men's Accessories</h2>
                   <p class="fs-lg text-light pb-3 from-top delay-2">Hats &amp; Caps, Sunglasses, Bags &amp; much more...</p>
-                  <div class="d-table scale-up delay-4 mx-auto mx-lg-0"><a class="btn btn-primary" href="shop-grid-ls.html">Shop Now<i class="ci-arrow-right ms-2 me-n1"></i></a></div>
+                  <div class="d-table scale-up delay-4 mx-auto mx-lg-0"><a class="btn btn-primary" href="shop-grid-ls.php">Shop Now<i class="ci-arrow-right ms-2 me-n1"></i></a></div>
                 </div>
               </div>
             </div>
@@ -656,11 +656,11 @@ include 'header.php';
             <div class="card border-0 shadow-lg">
               <div class="card-body px-3 pt-grid-gutter pb-0">
                 <div class="row g-0 ps-1">
-                  <div class="col-sm-4 px-2 mb-grid-gutter"><a class="d-block text-center text-decoration-none me-1" href="shop-grid-ls.html"><img class="d-block rounded mb-3" src="img/home/categories/cat-sm01.jpg" alt="Men">
+                  <div class="col-sm-4 px-2 mb-grid-gutter"><a class="d-block text-center text-decoration-none me-1" href="shop-grid-ls.php"><img class="d-block rounded mb-3" src="img/home/categories/cat-sm01.jpg" alt="Men">
                       <h3 class="fs-base pt-1 mb-0">Men</h3></a></div>
-                  <div class="col-sm-4 px-2 mb-grid-gutter"><a class="d-block text-center text-decoration-none me-1" href="shop-grid-ls.html"><img class="d-block rounded mb-3" src="img/home/categories/cat-sm02.jpg" alt="Women">
+                  <div class="col-sm-4 px-2 mb-grid-gutter"><a class="d-block text-center text-decoration-none me-1" href="shop-grid-ls.php"><img class="d-block rounded mb-3" src="img/home/categories/cat-sm02.jpg" alt="Women">
                       <h3 class="fs-base pt-1 mb-0">Women</h3></a></div>
-                  <div class="col-sm-4 px-2 mb-grid-gutter"><a class="d-block text-center text-decoration-none me-1" href="shop-grid-ls.html"><img class="d-block rounded mb-3" src="img/home/categories/cat-sm03.jpg" alt="Kids">
+                  <div class="col-sm-4 px-2 mb-grid-gutter"><a class="d-block text-center text-decoration-none me-1" href="shop-grid-ls.phpp"><img class="d-block rounded mb-3" src="img/home/categories/cat-sm03.jpg" alt="Kids">
                       <h3 class="fs-base pt-1 mb-0">Kids</h3></a></div>
                 </div>
               </div>
@@ -675,9 +675,9 @@ include 'header.php';
           <!-- Product-->
           <div class="col-lg-3 col-md-4 col-sm-6 px-2 mb-4">
             <div class="card product-card">
-              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/01.jpg" alt="Product"></a>
+              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.php"><img src="img/shop/catalog/01.jpg" alt="Product"></a>
               <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Sneakers &amp; Keds</a>
-                <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Women Colorblock Sneakers</a></h3>
+                <h3 class="product-title fs-sm"><a href="shop-single-v1.php">Women Colorblock Sneakers</a></h3>
                 <div class="d-flex justify-content-between">
                   <div class="product-price"><span class="text-accent">$154.<small>00</small></span></div>
                   <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-half active"></i><i class="star-rating-icon ci-star"></i>
@@ -712,9 +712,9 @@ include 'header.php';
           <!-- Product-->
           <div class="col-lg-3 col-md-4 col-sm-6 px-2 mb-4">
             <div class="card product-card"><span class="badge badge-danger badge-shadow">Sale</span>
-              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/02.jpg" alt="Product"></a>
+              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.php"><img src="img/shop/catalog/02.jpg" alt="Product"></a>
               <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Women’s T-shirt</a>
-                <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Cotton Lace Blouse</a></h3>
+                <h3 class="product-title fs-sm"><a href="shop-single-v1.php">Cotton Lace Blouse</a></h3>
                 <div class="d-flex justify-content-between">
                   <div class="product-price"><span class="text-accent">$28.<small>50</small></span>
                     <del class="fs-sm text-muted">$38.<small>50</small></del>
@@ -760,9 +760,9 @@ include 'header.php';
           <!-- Product-->
           <div class="col-lg-3 col-md-4 col-sm-6 px-2 mb-4">
             <div class="card product-card">
-              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/03.jpg" alt="Product"></a>
+              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.php"><img src="img/shop/catalog/03.jpg" alt="Product"></a>
               <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Women’s Shorts</a>
-                <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Mom High Waist Shorts</a></h3>
+                <h3 class="product-title fs-sm"><a href="shop-single-v1.php">Mom High Waist Shorts</a></h3>
                 <div class="d-flex justify-content-between">
                   <div class="product-price"><span class="text-accent">$39.<small>50</small></span></div>
                   <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i>
@@ -797,9 +797,9 @@ include 'header.php';
           <!-- Product-->
           <div class="col-lg-3 col-md-4 col-sm-6 px-2 mb-4">
             <div class="card product-card">
-              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/07.jpg" alt="Product"></a>
+              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.php"><img src="img/shop/catalog/07.jpg" alt="Product"></a>
               <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Women's Swimwear</a>
-                <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Two-Piece Bikini in Print</a></h3>
+                <h3 class="product-title fs-sm"><a href="shop-single-v1.php">Two-Piece Bikini in Print</a></h3>
                 <div class="d-flex justify-content-between">
                   <div class="product-price"><span class="text-accent">$18.<small>99</small></span></div>
                   <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star"></i>
@@ -830,9 +830,9 @@ include 'header.php';
           <!-- Product-->
           <div class="col-lg-3 col-md-4 col-sm-6 px-2 mb-4">
             <div class="card product-card">
-              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/04.jpg" alt="Product"></a>
+              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.php"><img src="img/shop/catalog/04.jpg" alt="Product"></a>
               <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Sportswear</a>
-                <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Women Sports Jacket</a></h3>
+                <h3 class="product-title fs-sm"><a href="shop-single-v1.php">Women Sports Jacket</a></h3>
                 <div class="d-flex justify-content-between">
                   <div class="product-price"><span class="text-accent">$68.<small>40</small></span></div>
                   <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-half active"></i>
@@ -867,16 +867,16 @@ include 'header.php';
           <!-- Product-->
           <div class="col-lg-3 col-md-4 col-sm-6 px-2 mb-4">
             <div class="card product-card">
-              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/05.jpg" alt="Product"></a>
+              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.php"><img src="img/shop/catalog/05.jpg" alt="Product"></a>
               <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Men’s Sunglasses</a>
-                <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Polarized Sunglasses</a></h3>
+                <h3 class="product-title fs-sm"><a href="shop-single-v1.php">Polarized Sunglasses</a></h3>
                 <div class="d-flex justify-content-between">
                   <div class="product-price"><span class="text-muted fs-sm">Out of stock</span></div>
                   <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star"></i>
                   </div>
                 </div>
               </div>
-              <div class="card-body card-body-hidden"><a class="btn btn-secondary btn-sm d-block w-100 mb-2" href="shop-single-v1.html">View details</a>
+              <div class="card-body card-body-hidden"><a class="btn btn-secondary btn-sm d-block w-100 mb-2" href="shop-single-v1.php">View details</a>
                 <div class="text-center"><a class="nav-link-style fs-ms" href="#quick-view" data-bs-toggle="modal"><i class="ci-eye align-middle me-1"></i>Quick view</a></div>
               </div>
             </div>
@@ -885,9 +885,9 @@ include 'header.php';
           <!-- Product-->
           <div class="col-lg-3 col-md-4 col-sm-6 px-2 mb-4">
             <div class="card product-card">
-              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/06.jpg" alt="Product"></a>
+              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.php"><img src="img/shop/catalog/06.jpg" alt="Product"></a>
               <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Backpacks</a>
-                <h3 class="product-title fs-sm"><a href="shop-single-v1.html">TH Jeans City Backpack</a></h3>
+                <h3 class="product-title fs-sm"><a href="shop-single-v1.php">TH Jeans City Backpack</a></h3>
                 <div class="d-flex justify-content-between">
                   <div class="product-price"><span class="text-accent">$79.<small>50</small></span></div>
                   <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-half active"></i><i class="star-rating-icon ci-star"></i><i class="star-rating-icon ci-star"></i>
@@ -918,9 +918,9 @@ include 'header.php';
           <!-- Product-->
           <div class="col-lg-3 col-md-4 col-sm-6 px-2 mb-4">
             <div class="card product-card">
-              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/25.jpg" alt="Product"></a>
+              <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.php"><img src="img/shop/catalog/25.jpg" alt="Product"></a>
               <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Women's Sneakers</a>
-                <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Leather High-Top Sneakers</a></h3>
+                <h3 class="product-title fs-sm"><a href="shop-single-v1.php">Leather High-Top Sneakers</a></h3>
                 <div class="d-flex justify-content-between">
                   <div class="product-price"><span class="text-accent">$215.<small>00</small></span></div>
                   <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star"></i>
@@ -953,7 +953,7 @@ include 'header.php';
             <hr class="d-sm-none">
           </div>
         </div>
-        <div class="text-center pt-3"><a class="btn btn-outline-accent" href="shop-grid-ls.html">More products<i class="ci-arrow-right ms-1"></i></a></div>
+        <div class="text-center pt-3"><a class="btn btn-outline-accent" href="shop-grid-ls.php">More products<i class="ci-arrow-right ms-1"></i></a></div>
       </section>
       <!-- Banners-->
       <section class="container pb-4 mb-md-3">
@@ -986,13 +986,13 @@ include 'header.php';
             <div class="d-flex flex-column h-100 overflow-hidden rounded-3" style="background-color: #e2e9ef;">
               <div class="d-flex justify-content-between px-grid-gutter py-grid-gutter">
                 <div>
-                  <h3 class="mb-1">Hoodie day</h3><a class="fs-md" href="shop-grid-ls.html">Shop hoodies<i class="ci-arrow-right fs-xs align-middle ms-1"></i></a>
+                  <h3 class="mb-1">Hoodie day</h3><a class="fs-md" href="shop-grid-ls.php">Shop hoodies<i class="ci-arrow-right fs-xs align-middle ms-1"></i></a>
                 </div>
                 <div class="tns-carousel-controls" id="hoodie-day">
                   <button type="button"><i class="ci-arrow-left"></i></button>
                   <button type="button"><i class="ci-arrow-right"></i></button>
                 </div>
-              </div><a class="d-none d-md-block mt-auto" href="shop-grid-ls.html"><img class="d-block w-100" src="img/home/categories/cat-lg04.jpg" alt="For Women"></a>
+              </div><a class="d-none d-md-block mt-auto" href="shop-grid-ls.php"><img class="d-block w-100" src="img/home/categories/cat-lg04.jpg" alt="For Women"></a>
             </div>
           </div>
           <!-- Product grid (carousel)-->
@@ -1004,9 +1004,9 @@ include 'header.php';
                   <div class="row mx-n2">
                     <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
                       <div class="card product-card card-static">
-                        <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/20.jpg" alt="Product"></a>
+                        <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.php"><img src="img/shop/catalog/20.jpg" alt="Product"></a>
                         <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Hoodies &amp; Sweatshirts</a>
-                          <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Block-colored Hooded Top</a></h3>
+                          <h3 class="product-title fs-sm"><a href="shop-single-v1.php">Block-colored Hooded Top</a></h3>
                           <div class="d-flex justify-content-between">
                             <div class="product-price"><span class="text-accent">$24.<small>99</small></span></div>
                             <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star"></i>
@@ -1017,9 +1017,9 @@ include 'header.php';
                     </div>
                     <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
                       <div class="card product-card card-static">
-                        <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/21.jpg" alt="Product"></a>
+                        <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.php"><img src="img/shop/catalog/21.jpg" alt="Product"></a>
                         <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Hoodies &amp; Sweatshirts</a>
-                          <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Block-colored Hooded Top</a></h3>
+                          <h3 class="product-title fs-sm"><a href="shop-single-v1.php">Block-colored Hooded Top</a></h3>
                           <div class="d-flex justify-content-between">
                             <div class="product-price"><span class="text-accent">$26.<small>99</small></span></div>
                             <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i>
@@ -1030,9 +1030,9 @@ include 'header.php';
                     </div>
                     <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
                       <div class="card product-card card-static"><span class="badge badge-danger badge-shadow">Sale</span>
-                        <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/23.jpg" alt="Product"></a>
+                        <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.php"><img src="img/shop/catalog/23.jpg" alt="Product"></a>
                         <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Hoodies &amp; Sweatshirts</a>
-                          <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Block-colored Hooded Top</a></h3>
+                          <h3 class="product-title fs-sm"><a href="shop-single-v1.php">Block-colored Hooded Top</a></h3>
                           <div class="d-flex justify-content-between">
                             <div class="product-price"><span class="text-accent">$17.<small>99</small></span>
                               <del class="fs-sm text-muted">24.<small>99</small></del>
@@ -1045,9 +1045,9 @@ include 'header.php';
                     </div>
                     <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
                       <div class="card product-card card-static">
-                        <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/51.jpg" alt="Product"></a>
+                        <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.php"><img src="img/shop/catalog/51.jpg" alt="Product"></a>
                         <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Hoodies &amp; Sweatshirts</a>
-                          <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Mono Color Hooded Top</a></h3>
+                          <h3 class="product-title fs-sm"><a href="shop-single-v1.php">Mono Color Hooded Top</a></h3>
                           <div class="d-flex justify-content-between">
                             <div class="product-price"><span class="text-accent">$21.<small>99</small></span></div>
                             <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i>
@@ -1058,9 +1058,9 @@ include 'header.php';
                     </div>
                     <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4 d-none d-lg-block">
                       <div class="card product-card card-static">
-                        <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/24.jpg" alt="Product"></a>
+                        <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.php"><img src="img/shop/catalog/24.jpg" alt="Product"></a>
                         <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Hoodies &amp; Sweatshirts</a>
-                          <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Block-colored Hooded Top</a></h3>
+                          <h3 class="product-title fs-sm"><a href="shop-single-v1.php">Block-colored Hooded Top</a></h3>
                           <div class="d-flex justify-content-between">
                             <div class="product-price"><span class="text-accent">$24.<small>99</small></span></div>
                             <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-half active"></i><i class="star-rating-icon ci-star"></i><i class="star-rating-icon ci-star"></i>
@@ -1071,9 +1071,9 @@ include 'header.php';
                     </div>
                     <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4 d-none d-lg-block">
                       <div class="card product-card card-static">
-                        <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/54.jpg" alt="Product"></a>
+                        <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.php"><img src="img/shop/catalog/54.jpg" alt="Product"></a>
                         <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Hoodies &amp; Sweatshirts</a>
-                          <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Mono Color Hooded Top</a></h3>
+                          <h3 class="product-title fs-sm"><a href="shop-single-v1.php">Mono Color Hooded Top</a></h3>
                           <div class="d-flex justify-content-between">
                             <div class="product-price"><span class="text-accent">$21.<small>99</small></span></div>
                             <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star"></i>
@@ -1089,9 +1089,9 @@ include 'header.php';
                   <div class="row mx-n2">
                     <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4 d-none d-lg-block">
                       <div class="card product-card card-static">
-                        <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/53.jpg" alt="Product"></a>
+                        <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.php"><img src="img/shop/catalog/53.jpg" alt="Product"></a>
                         <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Hoodies &amp; Sweatshirts</a>
-                          <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Mono Color Hooded Top</a></h3>
+                          <h3 class="product-title fs-sm"><a href="shop-single-v1.php">Mono Color Hooded Top</a></h3>
                           <div class="d-flex justify-content-between">
                             <div class="product-price"><span class="text-accent">$21.<small>99</small></span></div>
                             <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-half active"></i>
@@ -1102,9 +1102,9 @@ include 'header.php';
                     </div>
                     <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4 d-none d-lg-block">
                       <div class="card product-card card-static">
-                        <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/52.jpg" alt="Product"></a>
+                        <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.php"><img src="img/shop/catalog/52.jpg" alt="Product"></a>
                         <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Hoodies &amp; Sweatshirts</a>
-                          <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Printed Hooded Top</a></h3>
+                          <h3 class="product-title fs-sm"><a href="shop-single-v1.php">Printed Hooded Top</a></h3>
                           <div class="d-flex justify-content-between">
                             <div class="product-price"><span class="text-accent">$25.<small>99</small></span></div>
                             <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-half active"></i><i class="star-rating-icon ci-star"></i>
@@ -1115,9 +1115,9 @@ include 'header.php';
                     </div>
                     <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
                       <div class="card product-card card-static">
-                        <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/22.jpg" alt="Product"></a>
+                        <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.php"><img src="img/shop/catalog/22.jpg" alt="Product"></a>
                         <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Hoodies &amp; Sweatshirts</a>
-                          <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Block-colored Hooded Top</a></h3>
+                          <h3 class="product-title fs-sm"><a href="shop-single-v1.php">Block-colored Hooded Top</a></h3>
                           <div class="d-flex justify-content-between">
                             <div class="product-price"><span class="text-accent">$24.<small>99</small></span></div>
                             <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i>
@@ -1128,9 +1128,9 @@ include 'header.php';
                     </div>
                     <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
                       <div class="card product-card card-static">
-                        <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/56.jpg" alt="Product"></a>
+                        <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.php"><img src="img/shop/catalog/56.jpg" alt="Product"></a>
                         <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Hoodies &amp; Sweatshirts</a>
-                          <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Printed Hooded Top</a></h3>
+                          <h3 class="product-title fs-sm"><a href="shop-single-v1.php">Printed Hooded Top</a></h3>
                           <div class="d-flex justify-content-between">
                             <div class="product-price"><span class="text-accent">$25.<small>99</small></span></div>
                             <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star"></i>
@@ -1141,9 +1141,9 @@ include 'header.php';
                     </div>
                     <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
                       <div class="card product-card card-static">
-                        <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/55.jpg" alt="Product"></a>
+                        <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.php"><img src="img/shop/catalog/55.jpg" alt="Product"></a>
                         <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Hoodies &amp; Sweatshirts</a>
-                          <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Block-colored Hooded Top</a></h3>
+                          <h3 class="product-title fs-sm"><a href="shop-single-v1.php">Block-colored Hooded Top</a></h3>
                           <div class="d-flex justify-content-between">
                             <div class="product-price"><span class="text-accent">$24.<small>99</small></span></div>
                             <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-half active"></i><i class="star-rating-icon ci-star"></i><i class="star-rating-icon ci-star"></i>
@@ -1154,9 +1154,9 @@ include 'header.php';
                     </div>
                     <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
                       <div class="card product-card card-static">
-                        <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/57.jpg" alt="Product"></a>
+                        <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.php"><img src="img/shop/catalog/57.jpg" alt="Product"></a>
                         <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Hoodies &amp; Sweatshirts</a>
-                          <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Block-colored Hooded Top</a></h3>
+                          <h3 class="product-title fs-sm"><a href="shop-single-v1.php">Block-colored Hooded Top</a></h3>
                           <div class="d-flex justify-content-between">
                             <div class="product-price"><span class="text-accent">$23.<small>99</small></span></div>
                             <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star"></i><i class="star-rating-icon ci-star"></i>
