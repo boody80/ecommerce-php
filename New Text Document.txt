@@ -1,7 +1,7 @@
 index
-about
-contact
-shop
+about/
+contact/
+shop/
 single product
 product categories
 cart
@@ -12,5 +12,5 @@ sign up
 password recovery
 wishlist
 404 error
-order tracking
-dashboard
+order tracking/
+dashboard/
