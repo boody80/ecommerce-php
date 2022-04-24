@@ -224,7 +224,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 	<li id="handheld-menu-item-400" class="border-bottom position-static menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-400" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut"><a title="Fashion Store v.1" target="_blank" href="https://demo4.madrasthemes.com/cartzilla/fashion-store-v-1/" class="dropdown-item dropdown-toggle">Fashion Store v.1<small class="d-block text-muted">Classic Shop Layout</small></a>
 	<ul class="sub-menu" aria-labelledby="handheld-menu-item-dropdown-373"  role="menu">
 		<li id="handheld-menu-item-1441" class="menu-item menu-item-type-post_type menu-item-object-mas_static_content menu-item-1441"><div class="mas-static-content menu-item menu-item-type-post_type menu-item-object-mas_static_content">
-<div class="wp-block-image h-100 animation-0 mt-0 p-3 mb-0"><figure class="aligncenter size-full"><a href="https://demo4.madrasthemes.com/cartzilla/fashion-store-v-1/"><img src="https://demo4.madrasthemes.com/cartzilla/wp-content/uploads/2020/04/th01.jpg" alt="" class="wp-image-1433" title="" srcset="https://demo4.madrasthemes.com/cartzilla/wp-content/uploads/2020/04/th01.jpg 500w, https://demo4.madrasthemes.com/cartzilla/wp-content/uploads/2020/04/th01-246x300.jpg 246w" sizes="(max-width: 500px) 100vw, 500px" /></a></figure></div>
+<div class="wp-block-image h-100 animation-0 mt-0 p-3 mb-0"><figure class="aligncenter size-full"><a href="index.php"><img src="https://demo4.madrasthemes.com/cartzilla/wp-content/uploads/2020/04/th01.jpg" alt="" class="wp-image-1433" title="" srcset="https://demo4.madrasthemes.com/cartzilla/wp-content/uploads/2020/04/th01.jpg 500w, https://demo4.madrasthemes.com/cartzilla/wp-content/uploads/2020/04/th01-246x300.jpg 246w" sizes="(max-width: 500px) 100vw, 500px" /></a></figure></div>
 </div></li>
 	</ul>
 </li>
@@ -282,8 +282,8 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
                           <ul class="widget-list">
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/marketplace/shop/">Category Page</a></li>
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/marketplace/product/isometric-device-mockups-psd/">Single Item Page</a></li>
-                            <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/marketplace/cart/">Cart</a></li>
-                            <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/marketplace/checkout/">Checkout</a></li>
+                            <li class="widget-list-item pb-1"><a class="widget-list-link" href="marketplace-cart.php">Cart</a></li>
+                            <li class="widget-list-item pb-1"><a class="widget-list-link" href="grocery-checkout.php">Checkout</a></li>
                           </ul>
                         </div>
 </div>
@@ -294,11 +294,11 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 <div class="widget-links mb-3">
                           <h6 class="font-size-base mb-3">Shop pages</h6>
                           <ul class="widget-list">
-                            <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/shop-categories/">Shop Categories</a></li>
+                            <li class="widget-list-item pb-1"><a class="widget-list-link" href="shop-categories.php">Shop Categories</a></li>
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/product/printed-hooded-top-2/?single_product_style=style-v1">Product Page v.1</a></li>
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/product/smartwatch-youth-edition/?single_product_style=style-v2">Product Page v.2</a></li>
-                            <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/cart/">Cart</a></li>
-                            <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/checkout/">Checkout &#8211; Details</a></li>
+                            <li class="widget-list-item pb-1"><a class="widget-list-link" href="marketplace-cart.php">Cart</a></li>
+                            <li class="widget-list-item pb-1"><a class="widget-list-link" href="grocery-checkout.php">Checkout &#8211; Details</a></li>
                             
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/order-tracking/">Order Tracking</a></li>
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/product-comparison/">Product Comparison</a></li>
@@ -325,7 +325,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
                           <ul class="widget-list">
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/grocery/shop/">Product Catalog</a></li>
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/grocery/product/muesli-fitness-nutritious-energy-gluten-free-500g/">Single Product Page</a></li>
-                            <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/grocery/checkout/">Checkout</a></li>
+                            <li class="widget-list-item pb-1"><a class="widget-list-link" href="grocery-checkout.php">Checkout</a></li>
                           </ul>
                         </div>
 
@@ -358,7 +358,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 	</ul>
 </li>
 	<li id="handheld-menu-item-380" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-10 current_page_item active menu-item-380"><a title="Sign In / Sign Up" href="https://demo4.madrasthemes.com/cartzilla/my-account/" class="dropdown-item" aria-current="page">Sign In / Sign Up</a></li>
-	<li id="handheld-menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-381"><a title="Password Recovery" href="https://demo4.madrasthemes.com/cartzilla/my-account/lost-password/" class="dropdown-item">Password Recovery</a></li>
+	<li id="handheld-menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-381"><a title="Password Recovery" href="account-password-recovery.php" class="dropdown-item">Password Recovery</a></li>
 </ul>
 </li>
 <li id="handheld-menu-item-376" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-376" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut"><div class="d-flex justify-content-between align-items-center"><a title="Pages" href="#" data-toggle="collapse" aria-haspopup="true" aria-expanded="false" class=" " id="handheld-menu-item-dropdown-376">Pages</a><button type="button" class="btn btn-outline-secondary btn-icon rounded-circle btn-sm ml-3 collapsed" data-toggle="sub-menu"><i class="czi-arrow-up font-size-xs"></i></button></div>
@@ -387,7 +387,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 </li>
 	<li id="handheld-menu-item-391" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-391" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut"><a title="404 Not Found" href="https://demo4.madrasthemes.com/cartzilla/404" class="dropdown-item dropdown-toggle">404 Not Found</a>
 	<ul class="sub-menu" aria-labelledby="handheld-menu-item-dropdown-376"  role="menu">
-		<li id="handheld-menu-item-1033" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1033"><a title="404 - Simple Text" href="https://demo4.madrasthemes.com/cartzilla/404notfound/?404_style=style-v1" class="dropdown-item">404 &#8211; Simple Text</a></li>
+		<li id="handheld-menu-item-1033" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1033"><a title="404 - Simple Text" href="404-simple.php" class="dropdown-item">404 &#8211; Simple Text</a></li>
 		<li id="handheld-menu-item-1034" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1034"><a title="404 - Illustration" href="https://demo4.madrasthemes.com/cartzilla/404notfound/?404_style=style-v2" class="dropdown-item">404 &#8211; Illustration</a></li>
 	</ul>
 </li>
@@ -477,7 +477,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 			<input class="custom-control-input" name="rememberme" type="checkbox" id="modal_rememberme" value="forever" />
 			<label class="custom-control-label" for="modal_rememberme">Remember me</label>
 		</div>
-		<a href="https://demo4.madrasthemes.com/cartzilla/my-account/lost-password/" class="font-size-sm">Lost your password?</a>
+		<a href="account-password-recovery.php" class="font-size-sm">Lost your password?</a>
 	</div>
 
 	<button type="submit" class="btn btn-primary btn-block btn-shadow" name="login" value="Login">Login</button>
@@ -564,7 +564,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 						</div>
 					</a>
 
-											<a href="https://demo4.madrasthemes.com/cartzilla/wishlist/" class="navbar-tool d-none d-lg-flex">
+											<a href="account-wishlist.php" class="navbar-tool d-none d-lg-flex">
 															<span class="navbar-tool-label yith_wcwl_count">
 									0								</span>
 														<span class="navbar-tool-tooltip">Wishlist</span>
@@ -582,11 +582,11 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 							</a>
 																						<div class="navbar-tool dropdown ml-3">
 							            <div class="d-flex align-items-center cartzilla-cart-toggle-v3">
-                <a class="navbar-tool-icon-box bg-secondary dropdown-toggle" href="https://demo4.madrasthemes.com/cartzilla/cart/">
+                <a class="navbar-tool-icon-box bg-secondary dropdown-toggle" href="marketplace-cart.php">
                     <span class="navbar-tool-label">0</span>
                     <i class="navbar-tool-icon czi-cart"></i>
                 </a>
-                <a class="navbar-tool-text" href="https://demo4.madrasthemes.com/cartzilla/cart/">
+                <a class="navbar-tool-text" href="marketplace-cart.php">
                     <small>My Cart</small>
                                             &#36;0.00                                    </a>
             </div>
@@ -731,10 +731,10 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 						</ul>
 										<ul class="navbar-nav"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children dropdown menu-item-373 nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut"><a title="Home" href="https://demo4.madrasthemes.com/cartzilla/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle" id="menu-item-dropdown-373">Home</a>
 <ul class="sub-menu dropdown-menu" aria-labelledby="menu-item-dropdown-373"  role="menu">
-	<li class="border-bottom position-static menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-400" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut"><a title="Fashion Store v.1" target="_blank" href="https://demo4.madrasthemes.com/cartzilla/fashion-store-v-1/" class="dropdown-item dropdown-toggle">Fashion Store v.1<small class="d-block text-muted">Classic Shop Layout</small></a>
+	<li class="border-bottom position-static menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-400" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut"><a title="Fashion Store v.1" target="_blank" href="index.php" class="dropdown-item dropdown-toggle">Fashion Store v.1<small class="d-block text-muted">Classic Shop Layout</small></a>
 	<ul class="sub-menu dropdown-menu" aria-labelledby="menu-item-dropdown-373"  role="menu">
 		<li class="menu-item menu-item-type-post_type menu-item-object-mas_static_content menu-item-1441"><div class="mas-static-content menu-item menu-item-type-post_type menu-item-object-mas_static_content">
-<div class="wp-block-image h-100 animation-0 mt-0 p-3 mb-0"><figure class="aligncenter size-full"><a href="https://demo4.madrasthemes.com/cartzilla/fashion-store-v-1/"><img src="https://demo4.madrasthemes.com/cartzilla/wp-content/uploads/2020/04/th01.jpg" alt="" class="wp-image-1433" title="" srcset="https://demo4.madrasthemes.com/cartzilla/wp-content/uploads/2020/04/th01.jpg 500w, https://demo4.madrasthemes.com/cartzilla/wp-content/uploads/2020/04/th01-246x300.jpg 246w" sizes="(max-width: 500px) 100vw, 500px" /></a></figure></div>
+<div class="wp-block-image h-100 animation-0 mt-0 p-3 mb-0"><figure class="aligncenter size-full"><a href="index.php"><img src="https://demo4.madrasthemes.com/cartzilla/wp-content/uploads/2020/04/th01.jpg" alt="" class="wp-image-1433" title="" srcset="https://demo4.madrasthemes.com/cartzilla/wp-content/uploads/2020/04/th01.jpg 500w, https://demo4.madrasthemes.com/cartzilla/wp-content/uploads/2020/04/th01-246x300.jpg 246w" sizes="(max-width: 500px) 100vw, 500px" /></a></figure></div>
 </div></li>
 	</ul>
 </li>
@@ -792,8 +792,8 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
                           <ul class="widget-list">
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/marketplace/shop/">Category Page</a></li>
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/marketplace/product/isometric-device-mockups-psd/">Single Item Page</a></li>
-                            <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/marketplace/cart/">Cart</a></li>
-                            <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/marketplace/checkout/">Checkout</a></li>
+                            <li class="widget-list-item pb-1"><a class="widget-list-link" href="marketplace-cart.php">Cart</a></li>
+                            <li class="widget-list-item pb-1"><a class="widget-list-link" href="marketplace-checkout.php">Checkout</a></li>
                           </ul>
                         </div>
 </div>
@@ -804,11 +804,11 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 <div class="widget-links mb-3">
                           <h6 class="font-size-base mb-3">Shop pages</h6>
                           <ul class="widget-list">
-                            <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/shop-categories/">Shop Categories</a></li>
+                            <li class="widget-list-item pb-1"><a class="widget-list-link" href="shop-categories.php">Shop Categories</a></li>
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/product/printed-hooded-top-2/?single_product_style=style-v1">Product Page v.1</a></li>
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/product/smartwatch-youth-edition/?single_product_style=style-v2">Product Page v.2</a></li>
-                            <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/cart/">Cart</a></li>
-                            <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/checkout/">Checkout &#8211; Details</a></li>
+                            <li class="widget-list-item pb-1"><a class="widget-list-link" href="marketplace-cart.php">Cart</a></li>
+                            <li class="widget-list-item pb-1"><a class="widget-list-link" href="marketplace-checkout.php">Checkout &#8211; Details</a></li>
                             
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/order-tracking/">Order Tracking</a></li>
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/product-comparison/">Product Comparison</a></li>
@@ -835,7 +835,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
                           <ul class="widget-list">
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/grocery/shop/">Product Catalog</a></li>
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/grocery/product/muesli-fitness-nutritious-energy-gluten-free-500g/">Single Product Page</a></li>
-                            <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/grocery/checkout/">Checkout</a></li>
+                            <li class="widget-list-item pb-1"><a class="widget-list-link" href="marketplace-checkout.php">Checkout</a></li>
                           </ul>
                         </div>
 
@@ -868,7 +868,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 	</ul>
 </li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-10 current_page_item active menu-item-380"><a title="Sign In / Sign Up" href="https://demo4.madrasthemes.com/cartzilla/my-account/" class="dropdown-item" aria-current="page">Sign In / Sign Up</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-381"><a title="Password Recovery" href="https://demo4.madrasthemes.com/cartzilla/my-account/lost-password/" class="dropdown-item">Password Recovery</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-381"><a title="Password Recovery" href="account-password-recovery.php" class="dropdown-item">Password Recovery</a></li>
 </ul>
 </li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-376 nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut"><a title="Pages" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle" id="menu-item-dropdown-376">Pages</a>
@@ -895,9 +895,9 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 		<li class="menu-item menu-item-type-post_type menu-item-object-docs menu-item-1897"><a title="Submit a Request" href="https://demo4.madrasthemes.com/cartzilla/blog/docs/getting-started/item-support/what-is-item-support/" class="dropdown-item">Submit a Request</a></li>
 	</ul>
 </li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-391" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut"><a title="404 Not Found" href="https://demo4.madrasthemes.com/cartzilla/404" class="dropdown-item dropdown-toggle">404 Not Found</a>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-391" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut"><a title="404 Not Found" href="404-simple.php" class="dropdown-item dropdown-toggle">404 Not Found</a>
 	<ul class="sub-menu dropdown-menu" aria-labelledby="menu-item-dropdown-376"  role="menu">
-		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1033"><a title="404 - Simple Text" href="https://demo4.madrasthemes.com/cartzilla/404notfound/?404_style=style-v1" class="dropdown-item">404 &#8211; Simple Text</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1033"><a title="404 - Simple Text" href="404-simple.php" class="dropdown-item">404 &#8211; Simple Text</a></li>
 		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1034"><a title="404 - Illustration" href="https://demo4.madrasthemes.com/cartzilla/404notfound/?404_style=style-v2" class="dropdown-item">404 &#8211; Illustration</a></li>
 	</ul>
 </li>
@@ -976,7 +976,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 								<label class="woocommerce-form__label woocommerce-form__label-for-checkbox woocommerce-form-login__rememberme custom-control-label" for="rememberme">Remember me</label>
 							</div>
 							<div class="woocommerce-LostPassword lost_password">
-								<a class="font-size-sm" href="https://demo4.madrasthemes.com/cartzilla/my-account/lost-password/">Lost your password?</a>
+								<a class="font-size-sm" href="account-password-recovery.php">Lost your password?</a>
 							</div>
 						</div>
 
@@ -1117,7 +1117,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
         </a>
         <div class="woocommerce-notices-wrapper"></div>        <div class="cz-handheld-toolbar">
             <div class="d-table table-layout-fixed w-100">
-                		<a href="https://demo4.madrasthemes.com/cartzilla/wishlist/" class="d-table-cell cz-handheld-toolbar-item">
+                		<a href="account-wishlist.php" class="d-table-cell cz-handheld-toolbar-item">
 			<span class="cz-handheld-toolbar-icon">
 				<i class="czi-heart"></i>
 									<span class="badge badge-primary badge-pill yith_wcwl_count">
@@ -1131,7 +1131,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
             </span>
             <span class="cz-handheld-toolbar-label">Menu</span>
         </a>
-                <a href="https://demo4.madrasthemes.com/cartzilla/cart/" class="d-table-cell cz-handheld-toolbar-item cz-handheld-toolbar-cart">
+                <a href="marketplace-cart.php" class="d-table-cell cz-handheld-toolbar-item cz-handheld-toolbar-cart">
             <span class="cz-handheld-toolbar-icon">
                 <i class="czi-cart"></i>
                 <span class="badge badge-primary badge-pill">0</span>
