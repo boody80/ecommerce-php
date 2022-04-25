@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Cartzilla | Checkout</title>
+    <title>Cartzilla | Vendor Page</title>
     <!-- SEO Meta Tags-->
     <meta name="description" content="Cartzilla - Bootstrap E-commerce Template">
     <meta name="keywords" content="bootstrap, shop, e-commerce, market, modern, responsive,  business, mobile, bootstrap, html5, css3, js, gallery, slider, touch, creative, clean">
@@ -238,174 +238,202 @@
           </div>
         </div>
       </header>
-      <!-- Page Title-->
+      <!-- Header-->
       <div class="page-title-overlap bg-accent pt-4">
-        <div class="container d-lg-flex justify-content-between py-2 py-lg-3">
-          <div class="order-lg-2 mb-3 mb-lg-0 pt-lg-2">
-            <nav aria-label="breadcrumb">
-              <ol class="breadcrumb breadcrumb-light flex-lg-nowrap justify-content-center justify-content-lg-start">
-                <li class="breadcrumb-item"><a class="text-nowrap" href="index.php"><i class="ci-home"></i>Home</a></li>
-                <li class="breadcrumb-item text-nowrap"><a href="marketplace-category.php">Market</a>
-                </li>
-                <li class="breadcrumb-item text-nowrap active" aria-current="page">Checkout</li>
-              </ol>
-            </nav>
+        <div class="container d-flex flex-wrap flex-sm-nowrap justify-content-center justify-content-sm-between align-items-center pt-2">
+          <div class="d-flex align-items-center pb-3">
+            <div class="img-thumbnail rounded-circle flex-shrink-0" style="width: 6.375rem;"><img class="rounded-circle" src="img/marketplace/account/avatar.png" alt="Createx Studio"></div>
+            <div class="ps-3">
+              <h3 class="text-light fs-lg mb-0">Createx Studio</h3><span class="d-block text-light fs-ms opacity-60 py-1">Member since November 2017</span><span class="badge bg-success"><i class="ci-check me-1"></i>Available for freelance</span>
+            </div>
           </div>
-          <div class="order-lg-1 pe-lg-4 text-center text-lg-start">
-            <h1 class="h3 text-light mb-0">Checkout</h1>
+          <div class="d-flex">
+            <div class="text-sm-end me-5">
+              <div class="text-light fs-base">Total sales</div>
+              <h3 class="text-light">426</h3>
+            </div>
+            <div class="text-sm-end">
+              <div class="text-light fs-base">Seller rating</div>
+              <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star"></i>
+              </div>
+              <div class="text-light opacity-60 fs-xs">Based on 98 reviews</div>
+            </div>
           </div>
         </div>
       </div>
       <div class="container mb-5 pb-3">
         <div class="bg-light shadow-lg rounded-3 overflow-hidden">
           <div class="row">
+            <!-- Sidebar-->
+            <aside class="col-lg-4 pe-xl-5">
+              <div class="bg-white h-100 border-end p-4">
+                <div class="p-2">
+                  <h6>About</h6>
+                  <p class="fs-ms text-muted">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium viras doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                  <hr class="my-4">
+                  <h6>Contacts</h6>
+                  <ul class="list-unstyled fs-sm">
+                    <li><a class="nav-link-style d-flex align-items-center" href="mailto:contact@example.com"><i class="ci-mail opacity-60 me-2"></i>contact@example.com</a></li>
+                    <li><a class="nav-link-style d-flex align-items-center" href="#"><i class="ci-globe opacity-60 me-2"></i>www.createx.studio</a></li>
+                  </ul><a class="btn-social bs-facebook bs-outline bs-sm me-2 mb-2" href="#"><i class="ci-facebook"></i></a><a class="btn-social bs-twitter bs-outline bs-sm me-2 mb-2" href="#"><i class="ci-twitter"></i></a><a class="btn-social bs-dribbble bs-outline bs-sm me-2 mb-2" href="#"><i class="ci-dribbble"></i></a><a class="btn-social bs-behance bs-outline bs-sm me-2 mb-2" href="#"><i class="ci-behance"></i></a>
+                  <hr class="my-4">
+                  <h6 class="pb-1">Send message</h6>
+                  <form class="needs-validation pb-2" method="post" novalidate>
+                    <div class="mb-3">
+                      <textarea class="form-control" rows="6" placeholder="Your message" required></textarea>
+                      <div class="invalid-feedback">Please wirte your message!</div>
+                    </div>
+                    <button class="btn btn-primary btn-sm d-block w-100" type="submit">Send</button>
+                  </form>
+                </div>
+              </div>
+            </aside>
             <!-- Content-->
-            <section class="col-lg-8 pt-2 pt-lg-4 pb-4 mb-3">
-              <div class="pt-2 px-4 pe-lg-0 ps-xl-5">
-                <!-- Title-->
-                <h2 class="h6 border-bottom pb-3 mb-3">Billing details</h2>
-                <!-- Billing detail-->
-                <div class="row pb-4 gx-4 gy-3">
-                  <div class="col-sm-6">
-                    <label class="form-label" for="mc-fn">First name <span class='text-danger'>*</span></label>
-                    <input class="form-control" type="text" value="Jonathan" id="mc-fn">
-                  </div>
-                  <div class="col-sm-6">
-                    <label class="form-label" for="mc-ln">Last name <span class='text-danger'>*</span></label>
-                    <input class="form-control" type="text" value="Doe" id="mc-ln">
-                  </div>
-                  <div class="col-12">
-                    <label class="form-label" for="mc-email">Email address <span class='text-danger'>*</span></label>
-                    <input class="form-control" type="email" value="contact@createx.studio" id="mc-email">
-                  </div>
-                  <div class="col-sm-6">
-                    <label class="form-label" for="mc-company">Company</label>
-                    <input class="form-control" type="text" value="Createx Studio" id="mc-company">
-                  </div>
-                  <div class="col-sm-6">
-                    <label class="form-label" for="mc-country">Country <span class='text-danger'>*</span></label>
-                    <select class="form-select" id="mc-country">
-                      <option value>Select country</option>
-                      <option value="Argentina">Argentina</option>
-                      <option value="Belgium">Belgium</option>
-                      <option value="France">France</option>
-                      <option value="Germany">Germany</option>
-                      <option value="Madagascar" selected>Madagascar</option>
-                      <option value="Spain">Spain</option>
-                      <option value="UK">United Kingdom</option>
-                      <option value="USA">USA</option>
-                    </select>
-                  </div>
-                </div>
-                <!-- Order preview on mobile (screens small than 991px)-->
-                <div class="widget mb-3 d-lg-none">
-                  <h2 class="widget-title">Order summary</h2>
-                  <div class="d-flex align-items-center pb-2 border-bottom"><a class="d-block flex-shrink-0 me-2" href="marketplace-single.php"><img class="rounded-1" src="img/marketplace/products/widget/01.jpg" width="64" alt="Product"></a>
-                    <div class="ps-1">
-                      <h6 class="widget-product-title"><a href="marketplace-single.php">UI Isometric Devices Pack</a></h6>
-                      <div class="widget-product-meta"><span class="text-accent border-end pe-2 me-2">$23.<small>99</small></span><span class="fs-xs text-muted">Standard license</span></div>
-                    </div>
-                  </div>
-                  <div class="d-flex align-items-center py-2 border-bottom"><a class="d-block flex-shrink-0 me-2" href="marketplace-single.php"><img class="rounded-1" src="img/marketplace/products/widget/02.jpg" width="64" alt="Product"></a>
-                    <div class="ps-1">
-                      <h6 class="widget-product-title"><a href="marketplace-single.php">Project Devices Showcase</a></h6>
-                      <div class="widget-product-meta"><span class="text-accent border-end pe-2 me-2">$18.<small>99</small></span><span class="fs-xs text-muted">Standard license</span></div>
-                    </div>
-                  </div>
-                  <div class="d-flex align-items-center py-2 border-bottom"><a class="d-block flex-shrink-0 me-2" href="marketplace-single.php"><img class="rounded-1" src="img/marketplace/products/widget/03.jpg" width="64" alt="Product"></a>
-                    <div class="ps-1">
-                      <h6 class="widget-product-title"><a href="marketplace-single.php">Gravity Devices UI Mockup</a></h6>
-                      <div class="widget-product-meta"><span class="text-accent border-end pe-2 me-2">$15.<small>99</small></span><span class="fs-xs text-muted">Standard license</span></div>
-                    </div>
-                  </div>
-                  <ul class="list-unstyled fs-sm py-3">
-                    <li class="d-flex justify-content-between align-items-center"><span class="me-2">Subtotal:</span><span class="text-end">$58.<small>97</small></span></li>
-                    <li class="d-flex justify-content-between align-items-center"><span class="me-2">Taxes:</span><span class="text-end">$10.<small>45</small></span></li>
-                    <li class="d-flex justify-content-between align-items-center fs-base"><span class="me-2">Total:</span><span class="text-end">$69.<small>42</small></span></li>
-                  </ul>
-                </div>
-                <!-- Payment methods accordion-->
-                <div class="accordion mb-2" id="payment-method" role="tablist">
-                  <div class="accordion-item">
-                    <h3 class="accordion-header"><a class="accordion-button" href="#card" data-bs-toggle="collapse"><i class="ci-card fs-lg me-2 mt-n1 align-middle"></i>Pay with Credit Card</a></h3>
-                    <div class="accordion-collapse collapse show" id="card" data-bs-parent="#payment-method" role="tabpanel">
-                      <div class="accordion-body">
-                        <p class="fs-sm">We accept following credit cards:&nbsp;&nbsp;<img class="d-inline-block align-middle" src="img/cards.png" style="width: 187px;" alt="Cerdit Cards"></p>
-                        <div class="credit-card-wrapper"></div>
-                        <form class="credit-card-form row g-3">
-                          <div class="col-sm-6">
-                            <input class="form-control" type="text" name="number" placeholder="Card Number" required>
+            <section class="col-lg-8 pt-lg-4 pb-md-4">
+              <div class="pt-2 px-4 ps-lg-0 pe-xl-5">
+                <h2 class="h3 pt-2 pb-4 mb-4 text-center text-sm-start border-bottom">Products<span class="badge bg-faded-accent fs-sm text-body align-middle ms-2">6</span></h2>
+                <div class="row pt-2">
+                  <!-- Product-->
+                  <div class="col-sm-6 mb-grid-gutter">
+                    <div class="card product-card-alt">
+                      <div class="product-thumb">
+                        <button class="btn-wishlist btn-sm" type="button"><i class="ci-heart"></i></button>
+                        <div class="product-card-actions"><a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="marketplace-single.php"><i class="ci-eye"></i></a>
+                          <button class="btn btn-light btn-icon btn-shadow fs-base mx-2" type="button"><i class="ci-cart"></i></button>
+                        </div><a class="product-thumb-overlay" href="marketplace-single.php"></a><img src="img/marketplace/products/04.jpg" alt="Product">
+                      </div>
+                      <div class="card-body">
+                        <div class="d-flex flex-wrap justify-content-between align-items-start pb-2">
+                          <div class="text-muted fs-xs me-1">by <a class="product-meta fw-medium" href="#">Createx Std. </a>in <a class="product-meta fw-medium" href="#">Graphics</a></div>
+                          <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i>
                           </div>
-                          <div class="col-sm-6">
-                            <input class="form-control" type="text" name="name" placeholder="Full Name" required>
-                          </div>
-                          <div class="col-sm-3">
-                            <input class="form-control" type="text" name="expiry" placeholder="MM/YY" required>
-                          </div>
-                          <div class="col-sm-3">
-                            <input class="form-control" type="text" name="cvc" placeholder="CVC" required>
-                          </div>
-                          <div class="col-sm-6">
-                            <button class="btn btn-primary d-block w-100" type="submit">Place order</button>
-                          </div>
-                        </form>
+                        </div>
+                        <h3 class="product-title fs-sm mb-2"><a href="marketplace-single.php">Flat-line E-Commerce Icons (AI)</a></h3>
+                        <div class="d-flex flex-wrap justify-content-between align-items-center">
+                          <div class="fs-sm me-2"><i class="ci-download text-muted me-1"></i>26<span class="fs-xs ms-1">Sales</span></div>
+                          <div class="bg-faded-accent text-accent rounded-1 py-1 px-2">$18.<small>00</small></div>
+                        </div>
                       </div>
                     </div>
                   </div>
-                  <div class="accordion-item">
-                    <h3 class="accordion-header"><a class="accordion-button collapsed" href="#paypal" data-bs-toggle="collapse"><i class="ci-paypal me-2 align-middle"></i>Pay with PayPal</a></h3>
-                    <div class="accordion-collapse collapse" id="paypal" data-bs-parent="#payment-method" role="tabpanel">
-                      <div class="accordion-body fs-sm">
-                        <p><span class='fw-medium'>PayPal</span> - the safer, easier way to pay</p>
-                        <button class="btn btn-primary" type="button">Checkout with PayPal</button>
+                  <!-- Product-->
+                  <div class="col-sm-6 mb-grid-gutter">
+                    <div class="card product-card-alt">
+                      <div class="product-thumb">
+                        <button class="btn-wishlist btn-sm" type="button"><i class="ci-heart"></i></button>
+                        <div class="product-card-actions"><a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="marketplace-single.php"><i class="ci-eye"></i></a>
+                          <button class="btn btn-light btn-icon btn-shadow fs-base mx-2" type="button"><i class="ci-cart"></i></button>
+                        </div><a class="product-thumb-overlay" href="marketplace-single.php"></a><img src="img/marketplace/products/01.jpg" alt="Product">
+                      </div>
+                      <div class="card-body">
+                        <div class="d-flex flex-wrap justify-content-between align-items-start pb-2">
+                          <div class="text-muted fs-xs me-1">by <a class="product-meta fw-medium" href="#">Createx Std. </a>in <a class="product-meta fw-medium" href="#">UI Design</a></div>
+                          <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star"></i>
+                          </div>
+                        </div>
+                        <h3 class="product-title fs-sm mb-2"><a href="marketplace-single.php">Square Style Mobile UI Kit (Sketch)</a></h3>
+                        <div class="d-flex flex-wrap justify-content-between align-items-center">
+                          <div class="fs-sm me-2"><i class="ci-download text-muted me-1"></i>153<span class="fs-xs ms-1">Sales</span></div>
+                          <div class="bg-faded-accent text-accent rounded-1 py-1 px-2">$24.<small>00</small></div>
+                        </div>
                       </div>
                     </div>
                   </div>
-                  <div class="accordion-item">
-                    <h3 class="accordion-header"><a class="accordion-button collapsed" href="#points" data-bs-toggle="collapse"><i class="ci-money-bag me-2"></i>Pay with my account balance</a></h3>
-                    <div class="accordion-collapse collapse" id="points" data-bs-parent="#payment-method" role="tabpanel">
-                      <div class="accordion-body">
-                        <p>You currently have<span class="fw-medium">&nbsp;$1,375.<small>00</small></span>&nbsp;on your account balance.</p>
-                        <button class="btn btn-primary" type="submit">Pay with account balance</button>
+                  <!-- Product-->
+                  <div class="col-sm-6 mb-grid-gutter">
+                    <div class="card product-card-alt">
+                      <div class="product-thumb">
+                        <button class="btn-wishlist btn-sm" type="button"><i class="ci-heart"></i></button>
+                        <div class="product-card-actions"><a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="marketplace-single.php"><i class="ci-eye"></i></a>
+                          <button class="btn btn-light btn-icon btn-shadow fs-base mx-2" type="button"><i class="ci-cart"></i></button>
+                        </div><a class="product-thumb-overlay" href="marketplace-single.php"></a><img src="img/marketplace/products/05.jpg" alt="Product">
+                      </div>
+                      <div class="card-body">
+                        <div class="d-flex flex-wrap justify-content-between align-items-start pb-2">
+                          <div class="text-muted fs-xs me-1">by <a class="product-meta fw-medium" href="#">Createx Std. </a>in <a class="product-meta fw-medium" href="#">UI Design</a></div>
+                          <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star"></i>
+                          </div>
+                        </div>
+                        <h3 class="product-title fs-sm mb-2"><a href="marketplace-single.php">Minimal Mobile App UI Kit (Sketch)</a></h3>
+                        <div class="d-flex flex-wrap justify-content-between align-items-center">
+                          <div class="fs-sm me-2"><i class="ci-download text-muted me-1"></i>117<span class="fs-xs ms-1">Sales</span></div>
+                          <div class="bg-faded-accent text-accent rounded-1 py-1 px-2">$23.<small>00</small></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Product-->
+                  <div class="col-sm-6 mb-grid-gutter">
+                    <div class="card product-card-alt">
+                      <div class="product-thumb">
+                        <button class="btn-wishlist btn-sm" type="button"><i class="ci-heart"></i></button>
+                        <div class="product-card-actions"><a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="marketplace-single.php"><i class="ci-eye"></i></a>
+                          <button class="btn btn-light btn-icon btn-shadow fs-base mx-2" type="button"><i class="ci-cart"></i></button>
+                        </div><a class="product-thumb-overlay" href="marketplace-single.php"></a><img src="img/marketplace/products/02.jpg" alt="Product">
+                      </div>
+                      <div class="card-body">
+                        <div class="d-flex flex-wrap justify-content-between align-items-start pb-2">
+                          <div class="text-muted fs-xs me-1">by <a class="product-meta fw-medium" href="#">Createx Std. </a>in <a class="product-meta fw-medium" href="#">Graphics</a></div>
+                          <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i>
+                          </div>
+                        </div>
+                        <h3 class="product-title fs-sm mb-2"><a href="marketplace-single.php">Floating Phone and Tablet Mockup (PSD)</a></h3>
+                        <div class="d-flex flex-wrap justify-content-between align-items-center">
+                          <div class="fs-sm me-2"><i class="ci-download text-muted me-1"></i>109<span class="fs-xs ms-1">Sales</span></div>
+                          <div class="bg-faded-accent text-accent rounded-1 py-1 px-2">$15.<small>00</small></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Product-->
+                  <div class="col-sm-6 mb-grid-gutter">
+                    <div class="card product-card-alt">
+                      <div class="product-thumb">
+                        <button class="btn-wishlist btn-sm" type="button"><i class="ci-heart"></i></button>
+                        <div class="product-card-actions"><a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="marketplace-single.php"><i class="ci-eye"></i></a>
+                          <button class="btn btn-light btn-icon btn-shadow fs-base mx-2" type="button"><i class="ci-cart"></i></button>
+                        </div><a class="product-thumb-overlay" href="marketplace-single.php"></a><img src="img/marketplace/products/06.jpg" alt="Product">
+                      </div>
+                      <div class="card-body">
+                        <div class="d-flex flex-wrap justify-content-between align-items-start pb-2">
+                          <div class="text-muted fs-xs me-1">by <a class="product-meta fw-medium" href="#">Createx Std. </a>in <a class="product-meta fw-medium" href="#">Graphics</a></div>
+                          <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i>
+                          </div>
+                        </div>
+                        <h3 class="product-title fs-sm mb-2"><a href="marketplace-single.php">Travel &amp; Landmark Icon Pack (AI)</a></h3>
+                        <div class="d-flex flex-wrap justify-content-between align-items-center">
+                          <div class="fs-sm me-2"><i class="ci-download text-muted me-1"></i>21<span class="fs-xs ms-1">Sales</span></div>
+                          <div class="bg-faded-accent text-accent rounded-1 py-1 px-2">$17.<small>00</small></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Product-->
+                  <div class="col-sm-6 mb-grid-gutter">
+                    <div class="card product-card-alt">
+                      <div class="product-thumb">
+                        <button class="btn-wishlist btn-sm" type="button"><i class="ci-heart"></i></button>
+                        <div class="product-card-actions"><a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="marketplace-single.php"><i class="ci-eye"></i></a>
+                          <button class="btn btn-light btn-icon btn-shadow fs-base mx-2" type="button"><i class="ci-cart"></i></button>
+                        </div><a class="product-thumb-overlay" href="marketplace-single.php"></a><img src="img/marketplace/products/03.jpg" alt="Product">
+                      </div>
+                      <div class="card-body">
+                        <div class="d-flex flex-wrap justify-content-between align-items-start pb-2">
+                          <div class="text-muted fs-xs me-1">by <a class="product-meta fw-medium" href="#">Createx Std. </a>in <a class="product-meta fw-medium" href="#">Graphics</a></div>
+                          <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star"></i>
+                          </div>
+                        </div>
+                        <h3 class="product-title fs-sm mb-2"><a href="marketplace-single.php">Project Devices Showcase (PSD)</a></h3>
+                        <div class="d-flex flex-wrap justify-content-between align-items-center">
+                          <div class="fs-sm me-2"><i class="ci-download text-muted me-1"></i>95<span class="fs-xs ms-1">Sales</span></div>
+                          <div class="bg-faded-accent text-accent rounded-1 py-1 px-2">$18.<small>00</small></div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </section>
-            <!-- Sidebar-->
-            <!-- Order preview on desktop (screens larger than 991px)-->
-            <aside class="col-lg-4 d-none d-lg-block ps-xl-5">
-              <hr class="d-lg-none">
-              <div class="p-4 h-100 ms-auto border-start">
-                <div class="widget px-lg-2 py-2 mb-3">
-                  <h2 class="widget-title text-center">Order summary</h2>
-                  <div class="d-flex align-items-center pb-2 border-bottom"><a class="d-block flex-shrink-0 me-2" href="marketplace-single.php"><img class="rounded-1" src="img/marketplace/products/widget/01.jpg" width="64" alt="Product"></a>
-                    <div class="ps-1">
-                      <h6 class="widget-product-title"><a href="marketplace-single.php">UI Isometric Devices Pack</a></h6>
-                      <div class="widget-product-meta"><span class="text-accent border-end pe-2 me-2">$23.<small>00</small></span><span class="fs-xs text-muted">Standard license</span></div>
-                    </div>
-                  </div>
-                  <div class="d-flex align-items-center py-2 border-bottom"><a class="d-block flex-shrink-0 me-2" href="marketplace-single.php"><img class="rounded-1" src="img/marketplace/products/widget/02.jpg" width="64" alt="Product"></a>
-                    <div class="ps-1">
-                      <h6 class="widget-product-title"><a href="marketplace-single.php">Project Devices Showcase</a></h6>
-                      <div class="widget-product-meta"><span class="text-accent border-end pe-2 me-2">$18.<small>00</small></span><span class="fs-xs text-muted">Standard license</span></div>
-                    </div>
-                  </div>
-                  <div class="d-flex align-items-center py-2 border-bottom"><a class="d-block flex-shrink-0 me-2" href="marketplace-single.php"><img class="rounded-1" src="img/marketplace/products/widget/03.jpg" width="64" alt="Product"></a>
-                    <div class="ps-1">
-                      <h6 class="widget-product-title"><a href="marketplace-single.php">Gravity Devices UI Mockup</a></h6>
-                      <div class="widget-product-meta"><span class="text-accent border-end pe-2 me-2">$15.<small>00</small></span><span class="fs-xs text-muted">Standard license</span></div>
-                    </div>
-                  </div>
-                  <ul class="list-unstyled fs-sm pt-3 pb-2 border-bottom">
-                    <li class="d-flex justify-content-between align-items-center"><span class="me-2">Subtotal:</span><span class="text-end">$56.<small>00</small></span></li>
-                    <li class="d-flex justify-content-between align-items-center"><span class="me-2">Taxes:</span><span class="text-end">$9.<small>30</small></span></li>
-                  </ul>
-                  <h3 class="fw-normal text-center my-4">$65.<small>30</small></h3>
-                </div>
-              </div>
-            </aside>
           </div>
         </div>
       </div>
@@ -519,7 +547,6 @@
     <script src="vendor/simplebar/dist/simplebar.min.js"></script>
     <script src="vendor/tiny-slider/dist/min/tiny-slider.js"></script>
     <script src="vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
-    <script src="vendor/card/dist/card.js"></script>
     <!-- Main theme script-->
     <script src="js/theme.min.js"></script>
   </body>

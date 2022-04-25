@@ -3,7 +3,7 @@ demo4.madrasthemes.com/cartzilla/marketplace/cart/       marketplace-cart.php
 demo4.madrasthemes.com/cartzilla/marketplace/checkout/       marketplace-checkout.php
 demo4.madrasthemes.com/cartzilla/cart/              shop-cart.php
 demo4.madrasthemes.com/cartzilla/checkout/          check-cart.php
-demo4.madrasthemes.com/cartzilla/order-tracking         ordertracking.php
+demo4.madrasthemes.com/cartzilla/order-tracking         order-tracking.php
 demo4.madrasthemes.com/cartzilla/product-comparison          product-comparision.php
 demo4.madrasthemes.com/cartzilla/my-account/orders         account-order.php
 demo4.madrasthemes.com/cartzilla/my-account/edit-account    account-profile.php

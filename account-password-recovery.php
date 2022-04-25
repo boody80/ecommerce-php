@@ -311,7 +311,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href=" check-cart.php/">Checkout &#8211; Details</a></li>
 >>>>>>> Stashed changes
                             
-                            <li class="widget-list-item pb-1"><a class="widget-list-link" href=" ordertracking.php/">Order Tracking</a></li>
+                            <li class="widget-list-item pb-1"><a class="widget-list-link" href=" order-tracking.php/">Order Tracking</a></li>
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href=" product-comparision.php/">Product Comparison</a></li>
                           </ul>
                         </div>
@@ -545,7 +545,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 				            <div class="topbar-text dropdown d-md-none" data-cz-customizer="topbar_handheld_dropdown">
                 <a class="topbar-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">Useful links</a>
                 <ul class="dropdown-menu">
-                    <li><a href="tel:+100331697720" class="dropdown-item"><i class="czi-support text-muted mr-2"></i>(00) 33 169 7720</a></li><li><a href=" ordertracking.php/" class="dropdown-item"><i class="czi-location text-muted mr-2"></i>Order tracking</a></li>                </ul>
+                    <li><a href="tel:+100331697720" class="dropdown-item"><i class="czi-support text-muted mr-2"></i>(00) 33 169 7720</a></li><li><a href=" order-tracking.php/" class="dropdown-item"><i class="czi-location text-muted mr-2"></i>Order tracking</a></li>                </ul>
             </div>
             				<div class="topbar-text text-nowrap d-none d-md-inline-block" data-cz-customizer="topbar_contacts">
 					<i class="czi-support"></i><span class="text-muted mr-1">Support</span><a class="topbar-link" href="tel:00331697720">(00) 33 169 7720</a>				</div>
@@ -847,7 +847,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href=" check-cart.php/">Checkout &#8211; Details</a></li>
 >>>>>>> Stashed changes
                             
-                            <li class="widget-list-item pb-1"><a class="widget-list-link" href=" ordertracking.php/">Order Tracking</a></li>
+                            <li class="widget-list-item pb-1"><a class="widget-list-link" href=" order-tracking.php/">Order Tracking</a></li>
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href=" product-comparision.php/">Product Comparison</a></li>
                           </ul>
                         </div>
@@ -1043,7 +1043,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
                         <div id="nav_menu-3" class="widget widget_nav_menu pb-2 mb-4"><h3 class="widget-title">Account &#038; Shipping Info</h3><div class="menu-footer-widget-menu-2-container"><ul id="menu-footer-widget-menu-2" class="menu"><li id="menu-item-89" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-10 current_page_item menu-item-89"><a href=" account-profile.php/" aria-current="page">Your Account</a></li>
 <li id="menu-item-354" class="menu-item menu-item-type-post_type menu-item-object-docs menu-item-354"><a href="https://demo4.madrasthemes.com/cartzilla/blog/docs/getting-started/buying/shipping-rates-policies/">Shipping rates &#038; Policies</a></li>
 <li id="menu-item-355" class="menu-item menu-item-type-post_type menu-item-object-docs menu-item-355"><a href="https://demo4.madrasthemes.com/cartzilla/blog/docs/getting-started/buying/refunds-replacements/">Refunds &#038; Replacements</a></li>
-<li id="menu-item-90" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90"><a href=" ordertracking.php/">Order Tracking</a></li>
+<li id="menu-item-90" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90"><a href=" order-tracking.php/">Order Tracking</a></li>
 <li id="menu-item-356" class="menu-item menu-item-type-post_type menu-item-object-docs menu-item-356"><a href="https://demo4.madrasthemes.com/cartzilla/blog/docs/getting-started/buying/delivery-info/">Delivery Info</a></li>
 <li id="menu-item-357" class="menu-item menu-item-type-post_type menu-item-object-docs menu-item-357"><a href="https://demo4.madrasthemes.com/cartzilla/blog/docs/getting-started/buying/tax-fees/">Tax &#038; Fees</a></li>
 </ul></div></div><div id="nav_menu-4" class="widget widget_nav_menu pb-2 mb-4"><h3 class="widget-title">About Us</h3><div class="menu-footer-widget-menu-3-container"><ul id="menu-footer-widget-menu-3" class="menu"><li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"><a href=" about.php/">About Company</a></li>

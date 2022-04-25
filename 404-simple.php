@@ -299,7 +299,7 @@ a[href="#coming-soon"] {
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href=" shop-cart.php/">Cart</a></li>
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href=" check-cart.php/">Checkout &#8211; Details</a></li>
                             
-                            <li class="widget-list-item pb-1"><a class="widget-list-link" href=" ordertracking.php/">Order Tracking</a></li>
+                            <li class="widget-list-item pb-1"><a class="widget-list-link" href=" order-tracking.php/">Order Tracking</a></li>
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href=" product-comparision.php/">Product Comparison</a></li>
 >>>>>>> Stashed changes
                           </ul>
@@ -1036,7 +1036,7 @@ a[href="#coming-soon"] {
                         <div id="nav_menu-3" class="widget widget_nav_menu pb-2 mb-4"><h3 class="widget-title">Account &#038; Shipping Info</h3><div class="menu-footer-widget-menu-2-container"><ul id="menu-footer-widget-menu-2" class="menu"><li id="menu-item-89" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-89"><a href=" account-profile.php/">Your Account</a></li>
 <li id="menu-item-354" class="menu-item menu-item-type-post_type menu-item-object-docs menu-item-354"><a href="https://demo4.madrasthemes.com/cartzilla/blog/docs/getting-started/buying/shipping-rates-policies/">Shipping rates &#038; Policies</a></li>
 <li id="menu-item-355" class="menu-item menu-item-type-post_type menu-item-object-docs menu-item-355"><a href="https://demo4.madrasthemes.com/cartzilla/blog/docs/getting-started/buying/refunds-replacements/">Refunds &#038; Replacements</a></li>
-<li id="menu-item-90" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90"><a href=" ordertracking.php/">Order Tracking</a></li>
+<li id="menu-item-90" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90"><a href=" order-tracking.php/">Order Tracking</a></li>
 <li id="menu-item-356" class="menu-item menu-item-type-post_type menu-item-object-docs menu-item-356"><a href="https://demo4.madrasthemes.com/cartzilla/blog/docs/getting-started/buying/delivery-info/">Delivery Info</a></li>
 <li id="menu-item-357" class="menu-item menu-item-type-post_type menu-item-object-docs menu-item-357"><a href="https://demo4.madrasthemes.com/cartzilla/blog/docs/getting-started/buying/tax-fees/">Tax &#038; Fees</a></li>
 </ul></div></div><div id="nav_menu-4" class="widget widget_nav_menu pb-2 mb-4"><h3 class="widget-title">About Us</h3><div class="menu-footer-widget-menu-3-container"><ul id="menu-footer-widget-menu-3" class="menu"><li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"><a href=" about.php/">About Company</a></li>
