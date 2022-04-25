@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Cartzilla | Shop categories</title>
+    <title>Cartzilla | Contacts</title>
     <!-- SEO Meta Tags-->
     <meta name="description" content="Cartzilla - Bootstrap E-commerce Template">
     <meta name="keywords" content="bootstrap, shop, e-commerce, market, modern, responsive,  business, mobile, bootstrap, html5, css3, js, gallery, slider, touch, creative, clean">
@@ -113,170 +113,164 @@
       <?php
 
 include 'header.php';
-?>
-      <!-- Page Title (Light)-->
+?>      <!-- Page Title (Light)-->
       <div class="bg-secondary py-4">
         <div class="container d-lg-flex justify-content-between py-2 py-lg-3">
           <div class="order-lg-2 mb-3 mb-lg-0 pt-lg-2">
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb flex-lg-nowrap justify-content-center justify-content-lg-start">
                 <li class="breadcrumb-item"><a class="text-nowrap" href="index.php"><i class="ci-home"></i>Home</a></li>
-                <li class="breadcrumb-item text-nowrap"><a href="#">Shop</a>
-                </li>
-                <li class="breadcrumb-item text-nowrap active" aria-current="page">Categories</li>
+                <li class="breadcrumb-item text-nowrap active" aria-current="page">Contacts</li>
               </ol>
             </nav>
           </div>
           <div class="order-lg-1 pe-lg-4 text-center text-lg-start">
-            <h1 class="h3 mb-0">Shop categories</h1>
+            <h1 class="h3 mb-0">Contacts</h1>
           </div>
         </div>
       </div>
-      <div class="container pb-4 pb-sm-5">
-        <!-- Categories grid-->
-        <div class="row pt-5">
-          <!-- Catogory-->
-          <div class="col-md-4 col-sm-6 mb-3">
-            <div class="card border-0"><a class="d-block overflow-hidden rounded-3" href="shop-grid-ls.php"><img class="d-block w-100" src="img/shop/categories/01.jpg" alt="Clothing"></a>
-              <div class="card-body">
-                <h2 class="h5">Clothing</h2>
-                <ul class="list-unstyled fs-sm mb-0">
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Blazers &amp; Suits</a><span class="fs-ms text-muted">235</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Blouse</a><span class="fs-ms text-muted">410</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Cardigans &amp; Jumpers</a><span class="fs-ms text-muted">107</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Dresses</a><span class="fs-ms text-muted">93</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Hoodie &amp; Sweatshirts</a><span class="fs-ms text-muted">93</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Sportswear</a><span class="fs-ms text-muted">65</span></li>
-                  <li>...</li>
-                  <li>
-                    <hr>
-                  </li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>View all</a><span class="fs-ms text-muted">2,548</span></li>
+      <!-- Contact detail cards-->
+      <section class="container-fluid pt-grid-gutter">
+        <div class="row">
+          <div class="col-xl-3 col-sm-6 mb-grid-gutter"><a class="card h-100" href="#map" data-scroll>
+              <div class="card-body text-center"><i class="ci-location h3 mt-2 mb-4 text-primary"></i>
+                <h3 class="h6 mb-2">Main store address</h3>
+                <p class="fs-sm text-muted">396 Lillian Blvd, Holbrook, NY 11741, USA</p>
+                <div class="fs-sm text-primary">Click to see map<i class="ci-arrow-right align-middle ms-1"></i></div>
+              </div></a></div>
+          <div class="col-xl-3 col-sm-6 mb-grid-gutter">
+            <div class="card h-100">
+              <div class="card-body text-center"><i class="ci-time h3 mt-2 mb-4 text-primary"></i>
+                <h3 class="h6 mb-3">Working hours</h3>
+                <ul class="list-unstyled fs-sm text-muted mb-0">
+                  <li>Mon - Fri: 10AM - 7PM</li>
+                  <li class="mb-0">Sta: 11AM - 5PM</li>
                 </ul>
               </div>
             </div>
           </div>
-          <!-- Catogory-->
-          <div class="col-md-4 col-sm-6 mb-3">
-            <div class="card border-0"><a class="d-block overflow-hidden rounded-3" href="shop-grid-ls.php"><img class="d-block w-100" src="img/shop/categories/02.jpg" alt="Shoes"></a>
-              <div class="card-body">
-                <h2 class="h5">Shoes</h2>
+          <div class="col-xl-3 col-sm-6 mb-grid-gutter">
+            <div class="card h-100">
+              <div class="card-body text-center"><i class="ci-phone h3 mt-2 mb-4 text-primary"></i>
+                <h3 class="h6 mb-3">Phone numbers</h3>
                 <ul class="list-unstyled fs-sm mb-0">
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Pumps &amp; High Heels</a><span class="fs-ms text-muted">247</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Ballerinas &amp; Flats</a><span class="fs-ms text-muted">156</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Sandals</a><span class="fs-ms text-muted">310</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Sneakers</a><span class="fs-ms text-muted">402</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Boots</a><span class="fs-ms text-muted">393</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Flip Flops</a><span class="fs-ms text-muted">116</span></li>
-                  <li>...</li>
-                  <li>
-                    <hr>
-                  </li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>View all</a><span class="fs-ms text-muted">1,953</span></li>
+                  <li><span class="text-muted me-1">For customers:</span><a class="nav-link-style" href="tel:+108044357260">+1 (080) 44 357 260</a></li>
+                  <li class="mb-0"><span class="text-muted me-1">Tech support:</span><a class="nav-link-style" href="tel:+100331697720">+1 00 33 169 7720</a></li>
                 </ul>
               </div>
             </div>
           </div>
-          <!-- Catogory-->
-          <div class="col-md-4 col-sm-6 mb-3">
-            <div class="card border-0"><a class="d-block overflow-hidden rounded-3" href="shop-grid-ls.php"><img class="d-block w-100" src="img/shop/categories/03.jpg" alt="Gadgets"></a>
-              <div class="card-body">
-                <h2 class="h5">Gadgets</h2>
+          <div class="col-xl-3 col-sm-6 mb-grid-gutter">
+            <div class="card h-100">
+              <div class="card-body text-center"><i class="ci-mail h3 mt-2 mb-4 text-primary"></i>
+                <h3 class="h6 mb-3">Email addresses</h3>
                 <ul class="list-unstyled fs-sm mb-0">
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Smartphones &amp; Tablets</a><span class="fs-ms text-muted">436</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Headphones</a><span class="fs-ms text-muted">308</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Wearable Electronics</a><span class="fs-ms text-muted">195</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Home IoT Gadgets</a><span class="fs-ms text-muted">82</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Computers &amp; Accessories</a><span class="fs-ms text-muted">264</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Cameras, Photo &amp; Video</a><span class="fs-ms text-muted">57</span></li>
-                  <li>...</li>
-                  <li>
-                    <hr>
-                  </li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>View all</a><span class="fs-ms text-muted">1,240</span></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- Catogory-->
-          <div class="col-md-4 col-sm-6 mb-3">
-            <div class="card border-0"><a class="d-block overflow-hidden rounded-3" href="shop-grid-ls.php"><img class="d-block w-100" src="img/shop/categories/04.jpg" alt="Furniture"></a>
-              <div class="card-body">
-                <h2 class="h5">Furniture &amp; Decor</h2>
-                <ul class="list-unstyled fs-sm mb-0">
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Lounge Seating</a><span class="fs-ms text-muted">374</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>File Cabinets</a><span class="fs-ms text-muted">83</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Tables</a><span class="fs-ms text-muted">125</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Indoor Lighting</a><span class="fs-ms text-muted">291</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Office Chairs</a><span class="fs-ms text-muted">118</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Adjustable Height Desks</a><span class="fs-ms text-muted">46</span></li>
-                  <li>...</li>
-                  <li>
-                    <hr>
-                  </li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>View all</a><span class="fs-ms text-muted">960</span></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- Catogory-->
-          <div class="col-md-4 col-sm-6 mb-3">
-            <div class="card border-0"><a class="d-block overflow-hidden rounded-3" href="shop-grid-ls.php"><img class="d-block w-100" src="img/shop/categories/05.jpg" alt="Accessories"></a>
-              <div class="card-body">
-                <h2 class="h5">Accessories</h2>
-                <ul class="list-unstyled fs-sm mb-0">
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Bags</a><span class="fs-ms text-muted">417</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Sunglasses</a><span class="fs-ms text-muted">382</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Watches</a><span class="fs-ms text-muted">122</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Hats</a><span class="fs-ms text-muted">204</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Jewelry</a><span class="fs-ms text-muted">149</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Cosmetics</a><span class="fs-ms text-muted">90</span></li>
-                  <li>...</li>
-                  <li>
-                    <hr>
-                  </li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>View all</a><span class="fs-ms text-muted">1,532</span></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- Catogory-->
-          <div class="col-md-4 col-sm-6 mb-3">
-            <div class="card border-0"><a class="d-block overflow-hidden rounded-3" href="shop-grid-ls.php"><img class="d-block w-100" src="img/shop/categories/06.jpg" alt="Entertainment"></a>
-              <div class="card-body">
-                <h2 class="h5">Entertainment</h2>
-                <ul class="list-unstyled fs-sm mb-0">
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Video Games, VR</a><span class="fs-ms text-muted">306</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Kid's Toys</a><span class="fs-ms text-muted">231</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Table Games</a><span class="fs-ms text-muted">114</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Outdoor / Camping</a><span class="fs-ms text-muted">92</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Gifts</a><span class="fs-ms text-muted">27</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Music, CDs &amp; Vinyl</a><span class="fs-ms text-muted">41</span></li>
-                  <li>...</li>
-                  <li>
-                    <hr>
-                  </li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>View all</a><span class="fs-ms text-muted">879</span></li>
+                  <li><span class="text-muted me-1">For customers:</span><a class="nav-link-style" href="mailto:+108044357260">customer@example.com</a></li>
+                  <li class="mb-0"><span class="text-muted me-1">Tech support:</span><a class="nav-link-style" href="mailto:support@example.com">support@example.com</a></li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
-        <!-- Popular brands-->
-        <h2 class="h3 text-center py-4 mt-md-3">Popular brands</h2>
-        <div class="row">
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/01.png" width="150" alt="Brand"></a></div>
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/02.png" width="150" alt="Brand"></a></div>
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/03.png" width="150" alt="Brand"></a></div>
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/04.png" width="150" alt="Brand"></a></div>
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/05.png" width="150" alt="Brand"></a></div>
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/06.png" width="150" alt="Brand"></a></div>
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/07.png" width="150" alt="Brand"></a></div>
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/08.png" width="150" alt="Brand"></a></div>
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/09.png" width="150" alt="Brand"></a></div>
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/10.png" width="150" alt="Brand"></a></div>
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/11.png" width="150" alt="Brand"></a></div>
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/12.png" width="150" alt="Brand"></a></div>
+      </section>
+      <!-- Outlet stores-->
+      <section class="container pt-4 mt-md-4 mb-5">
+        <h2 class="h3 text-center mb-3">Partner outlet stores</h2>
+        <div class="row pt-4">
+          <div class="col-md-4 col-sm-6 mb-grid-gutter">
+            <div class="card border-0 shadow"><img class="card-img-top" src="img/contacts/orlando.jpg" alt="Orlando">
+              <div class="card-body">
+                <h6>Orlando, USA</h6>
+                <ul class="list-unstyled mb-0">
+                  <li class="d-flex pb-3 border-bottom"><i class="ci-location fs-lg mt-2 mb-0 text-primary"></i>
+                    <div class="ps-3"><span class="fs-ms text-muted">Find us</span><a class="d-block text-heading fs-sm" href="#">514 S. Magnolia St. Orlando, FL 32806, USA</a></div>
+                  </li>
+                  <li class="d-flex pt-2 pb-3 border-bottom"><i class="ci-phone fs-lg mt-2 mb-0 text-primary"></i>
+                    <div class="ps-3"><span class="fs-ms text-muted">Call us</span><a class="d-block text-heading fs-sm" href="tel:+178632256040">+1 (786) 322 560 40</a></div>
+                  </li>
+                  <li class="d-flex pt-2"><i class="ci-mail fs-lg mt-2 mb-0 text-primary"></i>
+                    <div class="ps-3"><span class="fs-ms text-muted">Write us</span><a class="d-block text-heading fs-sm" href="mailto:orlando@example.com">orlando@example.com</a></div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-grid-gutter">
+            <div class="card border-0 shadow"><img class="card-img-top" src="img/contacts/chicago.jpg" alt="Chicago">
+              <div class="card-body">
+                <h6>Chicago, USA</h6>
+                <ul class="list-unstyled mb-0">
+                  <li class="d-flex pb-3 border-bottom"><i class="ci-location fs-lg mt-2 mb-0 text-primary"></i>
+                    <div class="ps-3"><span class="fs-ms text-muted">Find us</span><a class="d-block text-heading fs-sm" href="#">769, Industrial, West Chicago, IL 60185, USA</a></div>
+                  </li>
+                  <li class="d-flex pt-2 pb-3 border-bottom"><i class="ci-phone fs-lg mt-2 mb-0 text-primary"></i>
+                    <div class="ps-3"><span class="fs-ms text-muted">Call us</span><a class="d-block text-heading fs-sm" href="tel:+184725276533">+1 (847) 252 765 33</a></div>
+                  </li>
+                  <li class="d-flex pt-2"><i class="ci-mail fs-lg mt-2 mb-0 text-primary"></i>
+                    <div class="ps-3"><span class="fs-ms text-muted">Write us</span><a class="d-block text-heading fs-sm" href="mailto:chicago@example.com">chicago@example.com</a></div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 mb-grid-gutter">
+            <div class="card border-0 shadow"><img class="card-img-top" src="img/contacts/newyork.jpg" alt="New York">
+              <div class="card-body">
+                <h6>New York, USA</h6>
+                <ul class="list-unstyled mb-0">
+                  <li class="d-flex pb-3 border-bottom"><i class="ci-location fs-lg mt-2 mb-0 text-primary"></i>
+                    <div class="ps-3"><span class="fs-ms text-muted">Find us</span><a class="d-block text-heading fs-sm" href="#">396 Lillian Blvd, Holbrook, NY 11741, USA</a></div>
+                  </li>
+                  <li class="d-flex pt-2 pb-3 border-bottom"><i class="ci-phone fs-lg mt-2 mb-0 text-primary"></i>
+                    <div class="ps-3"><span class="fs-ms text-muted">Call us</span><a class="d-block text-heading fs-sm" href="tel:+1212477690000">+1 (212) 477 690 000</a></div>
+                  </li>
+                  <li class="d-flex pt-2"><i class="ci-mail fs-lg mt-2 mb-0 text-primary"></i>
+                    <div class="ps-3"><span class="fs-ms text-muted">Write us</span><a class="d-block text-heading fs-sm" href="mailto:newyork@example.com">newyork@example.com</a></div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Split section: Map + Contact form-->
+      <div class="container-fluid px-0" id="map">
+        <div class="row g-0">
+          <div class="col-lg-6 iframe-full-height-wrap">
+            <iframe class="iframe-full-height" width="600" height="250" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53357.14257194912!2d-73.07268695801845!3d40.78017062807504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e8483b8bffed93%3A0x53467ceb834b7397!2s396+Lillian+Blvd%2C+Holbrook%2C+NY+11741%2C+USA!5e0!3m2!1sen!2sua!4v1558703206875!5m2!1sen!2sua"></iframe>
+          </div>
+          <div class="col-lg-6 px-4 px-xl-5 py-5 border-top">
+            <h2 class="h4 mb-4">Drop us a line</h2>
+            <form class="needs-validation mb-3" novalidate>
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <label class="form-label" for="cf-name">Your name:&nbsp;<span class="text-danger">*</span></label>
+                  <input class="form-control" type="text" id="cf-name" placeholder="John Doe" required>
+                  <div class="invalid-feedback">Please fill in you name!</div>
+                </div>
+                <div class="col-sm-6">
+                  <label class="form-label" for="cf-email">Email address:&nbsp;<span class="text-danger">*</span></label>
+                  <input class="form-control" type="email" id="cf-email" placeholder="johndoe@email.com" required>
+                  <div class="invalid-feedback">Please provide valid email address!</div>
+                </div>
+                <div class="col-sm-6">
+                  <label class="form-label" for="cf-phone">Your phone:&nbsp;<span class="text-danger">*</span></label>
+                  <input class="form-control" type="text" id="cf-phone" placeholder="+1 (212) 00 000 000" required>
+                  <div class="invalid-feedback">Please provide valid phone number!</div>
+                </div>
+                <div class="col-sm-6">
+                  <label class="form-label" for="cf-subject">Subject:</label>
+                  <input class="form-control" type="text" id="cf-subject" placeholder="Provide short title of your request">
+                </div>
+                <div class="col-12">
+                  <label class="form-label" for="cf-message">Message:&nbsp;<span class="text-danger">*</span></label>
+                  <textarea class="form-control" id="cf-message" rows="6" placeholder="Please describe in detail your request" required></textarea>
+                  <div class="invalid-feedback">Please write a message!</div>
+                  <button class="btn btn-primary mt-4" type="submit">Send message</button>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </main>

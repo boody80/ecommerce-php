@@ -196,10 +196,17 @@ a[href="#coming-soon"] {
                                     <nav class="cz-handheld-menu">
                         <ul><li id="handheld-menu-item-373" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children dropdown menu-item-373" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut"><div class="d-flex justify-content-between align-items-center"><a title="Home" href="https://demo4.madrasthemes.com/zilla/" data-toggle="collapse" aria-haspopup="true" aria-expanded="false" class=" " id="handheld-menu-item-dropdown-373">Home</a><button type="button" class="btn btn-outline-secondary btn-icon rounded-circle btn-sm ml-3 collapsed" data-toggle="sub-menu"><i class="czi-arrow-up font-size-xs"></i></button></div>
 <ul class="sub-menu" aria-labelledby="handheld-menu-item-dropdown-373"  role="menu">
+<<<<<<< Updated upstream
 	<li id="handheld-menu-item-400" class="border-bottom position-static menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-400" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut"><a title="Fashion Store v.1" target="_blank" href="https://demo4.madrasthemes.com/zilla/fashion-store-v-1/" class="dropdown-item dropdown-toggle">Fashion Store v.1<small class="d-block text-muted">Classic Shop Layout</small></a>
 	<ul class="sub-menu" aria-labelledby="handheld-menu-item-dropdown-373"  role="menu">
 		<li id="handheld-menu-item-1441" class="menu-item menu-item-type-post_type menu-item-object-mas_static_content menu-item-1441"><div class="mas-static-content menu-item menu-item-type-post_type menu-item-object-mas_static_content">
 <div class="wp-block-image h-100 animation-0 mt-0 p-3 mb-0"><figure class="aligncenter size-full"><a href="index.php"><img src="https://demo4.madrasthemes.com/zilla/wp-content/uploads/2020/04/th01.jpg" alt="" class="wp-image-1433" title="" srcset="https://demo4.madrasthemes.com/zilla/wp-content/uploads/2020/04/th01.jpg 500w, https://demo4.madrasthemes.com/zilla/wp-content/uploads/2020/04/th01-246x300.jpg 246w" sizes="(max-width: 500px) 100vw, 500px" /></a></figure></div>
+=======
+	<li id="handheld-menu-item-400" class="border-bottom position-static menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-400" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut"><a title="Fashion Store v.1" target="_blank" href="https://index.php" class="dropdown-item dropdown-toggle">Fashion Store v.1<small class="d-block text-muted">Classic Shop Layout</small></a>
+	<ul class="sub-menu" aria-labelledby="handheld-menu-item-dropdown-373"  role="menu">
+		<li id="handheld-menu-item-1441" class="menu-item menu-item-type-post_type menu-item-object-mas_static_content menu-item-1441"><div class="mas-static-content menu-item menu-item-type-post_type menu-item-object-mas_static_content">
+<div class="wp-block-image h-100 animation-0 mt-0 p-3 mb-0"><figure class="aligncenter size-full"><a href="https://index.php"><img src="https://demo4.madrasthemes.com/cartzilla/wp-content/uploads/2020/04/th01.jpg" alt="" class="wp-image-1433" title="" srcset="https://demo4.madrasthemes.com/cartzilla/wp-content/uploads/2020/04/th01.jpg 500w, https://demo4.madrasthemes.com/cartzilla/wp-content/uploads/2020/04/th01-246x300.jpg 246w" sizes="(max-width: 500px) 100vw, 500px" /></a></figure></div>
+>>>>>>> Stashed changes
 </div></li>
 	</ul>
 </li>
@@ -255,10 +262,17 @@ a[href="#coming-soon"] {
 <div class="widget-links">
                           <h6 class="font-size-base mb-3">Marketplace</h6>
                           <ul class="widget-list">
+<<<<<<< Updated upstream
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/zilla/marketplace/shop/">Category Page</a></li>
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/zilla/marketplace/product/isometric-device-mockups-psd/">Single Item Page</a></li>
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href="marketplace-.php">t</a></li>
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/zilla/marketplace/checkout/">Checkout</a></li>
+=======
+                            <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/marketplace/shop/">Category Page</a></li>
+                            <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/marketplace/product/isometric-device-mockups-psd/">Single Item Page</a></li>
+                            <li class="widget-list-item pb-1"><a class="widget-list-link" href="marketplace-cart.php/">Cart</a></li>
+                            <li class="widget-list-item pb-1"><a class="widget-list-link" href="marketplace-checkout.php/">Checkout</a></li>
+>>>>>>> Stashed changes
                           </ul>
                         </div>
 </div>
@@ -269,6 +283,7 @@ a[href="#coming-soon"] {
 <div class="widget-links mb-3">
                           <h6 class="font-size-base mb-3">Shop pages</h6>
                           <ul class="widget-list">
+<<<<<<< Updated upstream
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/zilla/shop-categories/">Shop Categories</a></li>
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/zilla/product/printed-hooded-top-2/?single_product_style=style-v1">Product Page v.1</a></li>
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/zilla/product/smartwatch-youth-edition/?single_product_style=style-v2">Product Page v.2</a></li>
@@ -277,6 +292,16 @@ a[href="#coming-soon"] {
                             
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/zilla/order-tracking/">Order Tracking</a></li>
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/zilla/product-comparison/">Product Comparison</a></li>
+=======
+                            <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/shop-categories/">Shop Categories</a></li>
+                            <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/product/printed-hooded-top-2/?single_product_style=style-v1">Product Page v.1</a></li>
+                            <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/product/smartwatch-youth-edition/?single_product_style=style-v2">Product Page v.2</a></li>
+                            <li class="widget-list-item pb-1"><a class="widget-list-link" href=" shop-cart.php/">Cart</a></li>
+                            <li class="widget-list-item pb-1"><a class="widget-list-link" href=" check-cart.php/">Checkout &#8211; Details</a></li>
+                            
+                            <li class="widget-list-item pb-1"><a class="widget-list-link" href=" ordertracking.php/">Order Tracking</a></li>
+                            <li class="widget-list-item pb-1"><a class="widget-list-link" href=" product-comparision.php/">Product Comparison</a></li>
+>>>>>>> Stashed changes
                           </ul>
                         </div>
 
@@ -298,9 +323,15 @@ a[href="#coming-soon"] {
 <div class="widget-links mb-3">
                           <h6 class="font-size-base mb-3">Grocery store</h6>
                           <ul class="widget-list">
+<<<<<<< Updated upstream
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/zilla/grocery/shop/">Product Catalog</a></li>
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/zilla/grocery/product/muesli-fitness-nutritious-energy-gluten-free-500g/">Single Product Page</a></li>
                             <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/zilla/grocery/checkout/">Checkout</a></li>
+=======
+                            <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/grocery/shop/">Product Catalog</a></li>
+                            <li class="widget-list-item pb-1"><a class="widget-list-link" href="https://demo4.madrasthemes.com/cartzilla/grocery/product/muesli-fitness-nutritious-energy-gluten-free-500g/">Single Product Page</a></li>
+                            <li class="widget-list-item pb-1"><a class="widget-list-link" href="grocery-checkout.php">Checkout</a></li>
+>>>>>>> Stashed changes
                           </ul>
                         </div>
 
@@ -314,6 +345,7 @@ a[href="#coming-soon"] {
 </li>
 <li id="handheld-menu-item-375" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-375" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut"><div class="d-flex justify-content-between align-items-center"><a title="Account" href="https://demo4.madrasthemes.com/zilla/my-account/" data-toggle="collapse" aria-haspopup="true" aria-expanded="false" class=" " id="handheld-menu-item-dropdown-375">Account</a><button type="button" class="btn btn-outline-secondary btn-icon rounded-circle btn-sm ml-3 collapsed" data-toggle="sub-menu"><i class="czi-arrow-up font-size-xs"></i></button></div>
 <ul class="sub-menu" aria-labelledby="handheld-menu-item-dropdown-375"  role="menu">
+<<<<<<< Updated upstream
 	<li id="handheld-menu-item-379" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-379" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut"><a title="Shop User Account" href="https://demo4.madrasthemes.com/zilla/my-account/" class="dropdown-item dropdown-toggle">Shop User Account</a>
 	<ul class="sub-menu" aria-labelledby="handheld-menu-item-dropdown-375"  role="menu">
 		<li id="handheld-menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-382"><a title="Order History" href="https://demo4.madrasthemes.com/zilla/my-account/orders/" class="dropdown-item">Order History</a></li>
@@ -334,6 +366,28 @@ a[href="#coming-soon"] {
 </li>
 	<li id="handheld-menu-item-380" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-380"><a title="Sign In / Sign Up" href="https://demo4.madrasthemes.com/zilla/my-account/" class="dropdown-item">Sign In / Sign Up</a></li>
 	<li id="handheld-menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-381"><a title="Password Recovery" href="https://demo4.madrasthemes.com/zilla/my-account/lost-password/" class="dropdown-item">Password Recovery</a></li>
+=======
+	<li id="handheld-menu-item-379" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-379" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut"><a title="Shop User Account" href=" account-profile.php/" class="dropdown-item dropdown-toggle">Shop User Account</a>
+	<ul class="sub-menu" aria-labelledby="handheld-menu-item-dropdown-375"  role="menu">
+		<li id="handheld-menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-382"><a title="Order History" href=" account-order.php/" class="dropdown-item">Order History</a></li>
+		<li id="handheld-menu-item-385" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-385"><a title="Profile Settings" href=" account-profile.php/" class="dropdown-item">Profile Settings</a></li>
+		<li id="handheld-menu-item-384" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-384"><a title="Account Addresses" href="account-address.php/" class="dropdown-item">Account Addresses</a></li>
+		<li id="handheld-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-383"><a title="Downloads" href="https://demo4.madrasthemes.com/cartzilla/my-account/downloads/" class="dropdown-item">Downloads</a></li>
+		<li id="handheld-menu-item-386" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-386"><a title="Payment methods" href="account-payment.php /" class="dropdown-item">Payment methods</a></li>
+	</ul>
+</li>
+	<li id="handheld-menu-item-1502" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-1502" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut"><a title="Vendor Dashboard" target="_blank" href="dashboard-settings.php/" class="dropdown-item dropdown-toggle">Vendor Dashboard</a>
+	<ul class="sub-menu" aria-labelledby="handheld-menu-item-dropdown-375"  role="menu">
+		<li id="handheld-menu-item-1503" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1503"><a title="Settings" target="_blank" href="dashboard-settings.php/" class="dropdown-item">Settings</a></li>
+		<li id="handheld-menu-item-1504" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1504"><a title="Purchases" target="_blank" href="https://demo4.madrasthemes.com/cartzilla/marketplace/dashboard/orders/" class="dropdown-item">Purchases</a></li>
+		<li id="handheld-menu-item-1505" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1505"><a title="Sales" target="_blank" href="https://demo4.madrasthemes.com/cartzilla/marketplace/dashboard/" class="dropdown-item">Sales</a></li>
+		<li id="handheld-menu-item-1506" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1506"><a title="Products" target="_blank" href="dashboard-products.php/" class="dropdown-item">Products</a></li>
+		<li id="handheld-menu-item-1507" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1507"><a title="Payouts" target="_blank" href="https://demo4.madrasthemes.com/cartzilla/marketplace/dashboard/withdraw/" class="dropdown-item">Payouts</a></li>
+	</ul>
+</li>
+	<li id="handheld-menu-item-380" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-380"><a title="Sign In / Sign Up" href=" account-profile.php/" class="dropdown-item">Sign In / Sign Up</a></li>
+	<li id="handheld-menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-381"><a title="Password Recovery" href="account-password-recovery.php/" class="dropdown-item">Password Recovery</a></li>
+>>>>>>> Stashed changes
 </ul>
 </li>
 <li id="handheld-menu-item-376" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children dropdown menu-item-376" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut"><div class="d-flex justify-content-between align-items-center"><a title="Pages" href="#" data-toggle="collapse" aria-haspopup="true" aria-expanded="false" class=" " id="handheld-menu-item-dropdown-376">Pages</a><button type="button" class="btn btn-outline-secondary btn-icon rounded-circle btn-sm ml-3 collapsed" data-toggle="sub-menu"><i class="czi-arrow-up font-size-xs"></i></button></div>
@@ -351,9 +405,15 @@ a[href="#coming-soon"] {
 		<li id="handheld-menu-item-660" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-660"><a title="Side Menu (Grocery)" href="https://demo4.madrasthemes.com/zilla/grocery/" class="dropdown-item">Side Menu (Grocery)</a></li>
 	</ul>
 </li>
+<<<<<<< Updated upstream
 	<li id="handheld-menu-item-388" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-388"><a title="About Us" href="https://demo4.madrasthemes.com/zilla/about-us/" class="dropdown-item">About Us</a></li>
 	<li id="handheld-menu-item-389" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-389"><a title="Contacts" href="https://demo4.madrasthemes.com/zilla/contacts/" class="dropdown-item">Contacts</a></li>
 	<li id="handheld-menu-item-1770" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-1770" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut"><a title="Help Center" href="https://demo4.madrasthemes.com/zilla/help-topics/" class="dropdown-item dropdown-toggle">Help Center</a>
+=======
+	<li id="handheld-menu-item-388" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-388"><a title="About Us" href=" about.php/" class="dropdown-item">About Us</a></li>
+	<li id="handheld-menu-item-389" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-389"><a title="Contacts" href="contact.php/" class="dropdown-item">Contacts</a></li>
+	<li id="handheld-menu-item-1770" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-1770" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut"><a title="Help Center" href="https://demo4.madrasthemes.com/cartzilla/help-topics/" class="dropdown-item dropdown-toggle">Help Center</a>
+>>>>>>> Stashed changes
 	<ul class="sub-menu" aria-labelledby="handheld-menu-item-dropdown-376"  role="menu">
 		<li id="handheld-menu-item-1771" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1771"><a title="Help Topics" href="https://demo4.madrasthemes.com/zilla/help-topics/" class="dropdown-item">Help Topics</a></li>
 		<li id="handheld-menu-item-1773" class="menu-item menu-item-type-post_type menu-item-object-docs menu-item-1773"><a title="Single Topic" href="https://demo4.madrasthemes.com/zilla/blog/docs/getting-started/buying/where-is-my-purchase-code/" class="dropdown-item">Single Topic</a></li>
@@ -362,8 +422,13 @@ a[href="#coming-soon"] {
 </li>
 	<li id="handheld-menu-item-391" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children dropdown active menu-item-391" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut"><a title="404 Not Found" href="https://demo4.madrasthemes.com/zilla/404" class="dropdown-item dropdown-toggle">404 Not Found</a>
 	<ul class="sub-menu" aria-labelledby="handheld-menu-item-dropdown-376"  role="menu">
+<<<<<<< Updated upstream
 		<li id="handheld-menu-item-1033" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item active menu-item-1033"><a title="404 - Simple Text" href="https://demo4.madrasthemes.com/zilla/404notfound/?404_style=style-v1" class="dropdown-item" aria-current="page">404 &#8211; Simple Text</a></li>
 		<li id="handheld-menu-item-1034" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1034"><a title="404 - Illustration" href="https://demo4.madrasthemes.com/zilla/404notfound/?404_style=style-v2" class="dropdown-item">404 &#8211; Illustration</a></li>
+=======
+		<li id="handheld-menu-item-1033" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item active menu-item-1033"><a title="404 - Simple Text" href="404-simple.php" class="dropdown-item" aria-current="page">404 &#8211; Simple Text</a></li>
+		<li id="handheld-menu-item-1034" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1034"><a title="404 - Illustration" href="https://demo4.madrasthemes.com/cartzilla/404notfound/?404_style=style-v2" class="dropdown-item">404 &#8211; Illustration</a></li>
+>>>>>>> Stashed changes
 	</ul>
 </li>
 </ul>
@@ -457,7 +522,11 @@ a[href="#coming-soon"] {
 
 	<button type="submit" class="btn btn-primary btn-block btn-shadow" name="login" value="Login">Login</button>
 
+<<<<<<< Updated upstream
 	<input type="hidden" id="woocommerce-login-nonce" name="woocommerce-login-nonce" value="4e126824be" /><input type="hidden" name="_wp_http_referer" value="/zilla/404notfound/?404_style=style-v1" />	<input type="hidden" name="redirect" value="https://demo4.madrasthemes.com/zilla/my-account/" />
+=======
+	<input type="hidden" id="woocommerce-login-nonce" name="woocommerce-login-nonce" value="4e126824be" /><input type="hidden" name="_wp_http_referer" value="404-simple.php" />	<input type="hidden" name="redirect" value=" account-profile.php/" />
+>>>>>>> Stashed changes
 
 	
 </form>
@@ -499,6 +568,7 @@ a[href="#coming-soon"] {
                 </div>
             </div>
         </div>
+<<<<<<< Updated upstream
         <header id="masthead" role="banner" class="site-header box-shadow-sm site-header-v3-light">
 			<div class="topbar topbar-dark bg-dark">
 			<div class="container justify-content-between">
@@ -909,6 +979,11 @@ a[href="#coming-soon"] {
 	</div>
 </header>
 
+=======
+       <?php
+       include 'header.php';
+       ?>
+>>>>>>> Stashed changes
     <main id="content" role="main" tabindex="-1" class="site-main">
 
         	<div class="container py-5 mb-3 text-center">
@@ -946,6 +1021,7 @@ a[href="#coming-soon"] {
 <li id="menu-item-88" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-88"><a href="https://demo4.madrasthemes.com/zilla/product-category/watches/">Watches</a></li>
 </ul></div></div>                    </div>
                                                     <div class="col-md-4 col-sm-6">
+<<<<<<< Updated upstream
                         <div id="nav_menu-3" class="widget widget_nav_menu pb-2 mb-4"><h3 class="widget-title">Account &#038; Shipping Info</h3><div class="menu-footer-widget-menu-2-container"><ul id="menu-footer-widget-menu-2" class="menu"><li id="menu-item-89" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-89"><a href="https://demo4.madrasthemes.com/zilla/my-account/">Your Account</a></li>
 <li id="menu-item-354" class="menu-item menu-item-type-post_type menu-item-object-docs menu-item-354"><a href="https://demo4.madrasthemes.com/zilla/blog/docs/getting-started/buying/shipping-rates-policies/">Shipping rates &#038; Policies</a></li>
 <li id="menu-item-355" class="menu-item menu-item-type-post_type menu-item-object-docs menu-item-355"><a href="https://demo4.madrasthemes.com/zilla/blog/docs/getting-started/buying/refunds-replacements/">Refunds &#038; Replacements</a></li>
@@ -956,6 +1032,18 @@ a[href="#coming-soon"] {
 <li id="menu-item-358" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-358"><a href="https://demo4.madrasthemes.com/zilla/about-us/">Our Team</a></li>
 <li id="menu-item-70" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70"><a href="https://demo4.madrasthemes.com/zilla/contacts/">Contacts</a></li>
 <li id="menu-item-359" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-359"><a href="https://demo4.madrasthemes.com/zilla/blog/">News</a></li>
+=======
+                        <div id="nav_menu-3" class="widget widget_nav_menu pb-2 mb-4"><h3 class="widget-title">Account &#038; Shipping Info</h3><div class="menu-footer-widget-menu-2-container"><ul id="menu-footer-widget-menu-2" class="menu"><li id="menu-item-89" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-89"><a href=" account-profile.php/">Your Account</a></li>
+<li id="menu-item-354" class="menu-item menu-item-type-post_type menu-item-object-docs menu-item-354"><a href="https://demo4.madrasthemes.com/cartzilla/blog/docs/getting-started/buying/shipping-rates-policies/">Shipping rates &#038; Policies</a></li>
+<li id="menu-item-355" class="menu-item menu-item-type-post_type menu-item-object-docs menu-item-355"><a href="https://demo4.madrasthemes.com/cartzilla/blog/docs/getting-started/buying/refunds-replacements/">Refunds &#038; Replacements</a></li>
+<li id="menu-item-90" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90"><a href=" ordertracking.php/">Order Tracking</a></li>
+<li id="menu-item-356" class="menu-item menu-item-type-post_type menu-item-object-docs menu-item-356"><a href="https://demo4.madrasthemes.com/cartzilla/blog/docs/getting-started/buying/delivery-info/">Delivery Info</a></li>
+<li id="menu-item-357" class="menu-item menu-item-type-post_type menu-item-object-docs menu-item-357"><a href="https://demo4.madrasthemes.com/cartzilla/blog/docs/getting-started/buying/tax-fees/">Tax &#038; Fees</a></li>
+</ul></div></div><div id="nav_menu-4" class="widget widget_nav_menu pb-2 mb-4"><h3 class="widget-title">About Us</h3><div class="menu-footer-widget-menu-3-container"><ul id="menu-footer-widget-menu-3" class="menu"><li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"><a href=" about.php/">About Company</a></li>
+<li id="menu-item-358" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-358"><a href=" about.php/">Our Team</a></li>
+<li id="menu-item-70" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70"><a href="contact.php/">Contacts</a></li>
+<li id="menu-item-359" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-359"><a href="https://demo4.madrasthemes.com/cartzilla/blog/">News</a></li>
+>>>>>>> Stashed changes
 </ul></div></div>                    </div>
                                                     <div class="col-md-4">
                         <div id="text-4" class="widget widget_text pb-2 mb-4"><h3 class="widget-title">Stay informed</h3>			<div class="textwidget"><div class="wpforms-container wpforms-container-full subscribe-form" id="wpforms-1120"><form id="wpforms-form-1120" class="wpforms-validate wpforms-form" data-formid="1120" method="post" enctype="multipart/form-data" action="/zilla/404notfound/?404_style=style-v1"><noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript><div class="wpforms-field-container"><div id="wpforms-1120-field_1-container" class="wpforms-field wpforms-field-email" data-field-id="1"><label class="wpforms-field-label wpforms-label-hide" for="wpforms-1120-field_1">Email <span class="wpforms-required-label">*</span></label><input type="email" id="wpforms-1120-field_1" class="wpforms-field-large wpforms-field-required" name="wpforms[fields][1]" placeholder="Your email" required></div></div><div class="wpforms-field wpforms-field-hp"><label for="wpforms-1120-field-hp" class="wpforms-field-label">Message</label><input type="text" name="wpforms[hp]" id="wpforms-1120-field-hp" class="wpforms-field-medium"></div><div class="wpforms-submit-container" ><input type="hidden" name="wpforms[id]" value="1120"><input type="hidden" name="wpforms[author]" value="0"><button type="submit" name="wpforms[submit]" class="wpforms-submit btn btn-primary" id="wpforms-submit-1120" value="wpforms-submit" aria-live="assertive" data-alt-text="Sending..." data-submit-text="Subscribe">Subscribe</button></div></form></div>  <!-- .wpforms-container -->
@@ -977,10 +1065,17 @@ a[href="#coming-soon"] {
                     <div class="text-nowrap mb-4">
                         <a href="https://demo4.madrasthemes.com/zilla/" class="d-inline-block align-middle mt-n1 mr-3 footer-logo-link" rel="home" style="width: 117px;"><img width="234" height="56" src="https://demo4.madrasthemes.com/zilla/wp-content/uploads/2020/03/footer-logo-light.png" class="footer-logo d-block" alt="zilla" /></a>                                            </div>
                                             <div class="widget widget-links widget-light">
+<<<<<<< Updated upstream
                             <ul class="d-flex flex-wrap justify-content-center justify-content-md-start footer-menu"><li id="menu-item-367" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-367"><a title="Outlets" href="https://demo4.madrasthemes.com/zilla/contacts/">Outlets</a></li>
 <li id="menu-item-366" class="menu-item menu-item-type-post_type menu-item-object-docs menu-item-366"><a title="Affiliates" href="https://demo4.madrasthemes.com/zilla/blog/docs/subscription/">Affiliates</a></li>
 <li id="menu-item-365" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-365"><a title="Privacy" href="https://demo4.madrasthemes.com/zilla/privacy-policy/">Privacy</a></li>
 <li id="menu-item-363" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-363"><a title="Terms of use" href="https://demo4.madrasthemes.com/zilla/terms-conditions/">Terms of use</a></li>
+=======
+                            <ul class="d-flex flex-wrap justify-content-center justify-content-md-start footer-menu"><li id="menu-item-367" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-367"><a title="Outlets" href="contact.php/">Outlets</a></li>
+<li id="menu-item-366" class="menu-item menu-item-type-post_type menu-item-object-docs menu-item-366"><a title="Affiliates" href="https://demo4.madrasthemes.com/cartzilla/blog/docs/subscription/">Affiliates</a></li>
+<li id="menu-item-365" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-365"><a title="Privacy" href="https://demo4.madrasthemes.com/cartzilla/privacy-policy/">Privacy</a></li>
+<li id="menu-item-363" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-363"><a title="Terms of use" href="https://demo4.madrasthemes.com/cartzilla/terms-conditions/">Terms of use</a></li>
+>>>>>>> Stashed changes
 </ul>                        </div>
                                     </div>
                                     <div class="col-md-6 text-center text-md-right mb-4">
@@ -1020,7 +1115,11 @@ a[href="#coming-soon"] {
             </span>
             <span class="cz-handheld-toolbar-label">Menu</span>
         </a>
+<<<<<<< Updated upstream
                 <a href="https://demo4.madrasthemes.com/zilla//" class="d-table-cell cz-handheld-toolbar-item cz-handheld-toolbar-">
+=======
+                <a href=" shop-cart.php/" class="d-table-cell cz-handheld-toolbar-item cz-handheld-toolbar-cart">
+>>>>>>> Stashed changes
             <span class="cz-handheld-toolbar-icon">
                 <i class="czi-"></i>
                 <span class="badge badge-primary badge-pill">0</span>

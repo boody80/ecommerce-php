@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Cartzilla | Shop categories</title>
+    <title>Cartzilla | Checkout</title>
     <!-- SEO Meta Tags-->
     <meta name="description" content="Cartzilla - Bootstrap E-commerce Template">
     <meta name="keywords" content="bootstrap, shop, e-commerce, market, modern, responsive,  business, mobile, bootstrap, html5, css3, js, gallery, slider, touch, creative, clean">
@@ -114,169 +114,203 @@
 
 include 'header.php';
 ?>
-      <!-- Page Title (Light)-->
-      <div class="bg-secondary py-4">
+      <!-- Page Title-->
+      <div class="page-title-overlap bg-dark pt-4">
         <div class="container d-lg-flex justify-content-between py-2 py-lg-3">
           <div class="order-lg-2 mb-3 mb-lg-0 pt-lg-2">
             <nav aria-label="breadcrumb">
-              <ol class="breadcrumb flex-lg-nowrap justify-content-center justify-content-lg-start">
+              <ol class="breadcrumb breadcrumb-light flex-lg-nowrap justify-content-center justify-content-lg-start">
                 <li class="breadcrumb-item"><a class="text-nowrap" href="index.php"><i class="ci-home"></i>Home</a></li>
-                <li class="breadcrumb-item text-nowrap"><a href="#">Shop</a>
+                <li class="breadcrumb-item text-nowrap"><a href="shop-grid-ls.php">Shop</a>
                 </li>
-                <li class="breadcrumb-item text-nowrap active" aria-current="page">Categories</li>
+                <li class="breadcrumb-item text-nowrap active" aria-current="page">Checkout</li>
               </ol>
             </nav>
           </div>
           <div class="order-lg-1 pe-lg-4 text-center text-lg-start">
-            <h1 class="h3 mb-0">Shop categories</h1>
+            <h1 class="h3 text-light mb-0">Checkout</h1>
           </div>
         </div>
       </div>
-      <div class="container pb-4 pb-sm-5">
-        <!-- Categories grid-->
-        <div class="row pt-5">
-          <!-- Catogory-->
-          <div class="col-md-4 col-sm-6 mb-3">
-            <div class="card border-0"><a class="d-block overflow-hidden rounded-3" href="shop-grid-ls.php"><img class="d-block w-100" src="img/shop/categories/01.jpg" alt="Clothing"></a>
-              <div class="card-body">
-                <h2 class="h5">Clothing</h2>
-                <ul class="list-unstyled fs-sm mb-0">
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Blazers &amp; Suits</a><span class="fs-ms text-muted">235</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Blouse</a><span class="fs-ms text-muted">410</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Cardigans &amp; Jumpers</a><span class="fs-ms text-muted">107</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Dresses</a><span class="fs-ms text-muted">93</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Hoodie &amp; Sweatshirts</a><span class="fs-ms text-muted">93</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Sportswear</a><span class="fs-ms text-muted">65</span></li>
-                  <li>...</li>
-                  <li>
-                    <hr>
-                  </li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>View all</a><span class="fs-ms text-muted">2,548</span></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- Catogory-->
-          <div class="col-md-4 col-sm-6 mb-3">
-            <div class="card border-0"><a class="d-block overflow-hidden rounded-3" href="shop-grid-ls.php"><img class="d-block w-100" src="img/shop/categories/02.jpg" alt="Shoes"></a>
-              <div class="card-body">
-                <h2 class="h5">Shoes</h2>
-                <ul class="list-unstyled fs-sm mb-0">
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Pumps &amp; High Heels</a><span class="fs-ms text-muted">247</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Ballerinas &amp; Flats</a><span class="fs-ms text-muted">156</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Sandals</a><span class="fs-ms text-muted">310</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Sneakers</a><span class="fs-ms text-muted">402</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Boots</a><span class="fs-ms text-muted">393</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Flip Flops</a><span class="fs-ms text-muted">116</span></li>
-                  <li>...</li>
-                  <li>
-                    <hr>
-                  </li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>View all</a><span class="fs-ms text-muted">1,953</span></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- Catogory-->
-          <div class="col-md-4 col-sm-6 mb-3">
-            <div class="card border-0"><a class="d-block overflow-hidden rounded-3" href="shop-grid-ls.php"><img class="d-block w-100" src="img/shop/categories/03.jpg" alt="Gadgets"></a>
-              <div class="card-body">
-                <h2 class="h5">Gadgets</h2>
-                <ul class="list-unstyled fs-sm mb-0">
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Smartphones &amp; Tablets</a><span class="fs-ms text-muted">436</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Headphones</a><span class="fs-ms text-muted">308</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Wearable Electronics</a><span class="fs-ms text-muted">195</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Home IoT Gadgets</a><span class="fs-ms text-muted">82</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Computers &amp; Accessories</a><span class="fs-ms text-muted">264</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Cameras, Photo &amp; Video</a><span class="fs-ms text-muted">57</span></li>
-                  <li>...</li>
-                  <li>
-                    <hr>
-                  </li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>View all</a><span class="fs-ms text-muted">1,240</span></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- Catogory-->
-          <div class="col-md-4 col-sm-6 mb-3">
-            <div class="card border-0"><a class="d-block overflow-hidden rounded-3" href="shop-grid-ls.php"><img class="d-block w-100" src="img/shop/categories/04.jpg" alt="Furniture"></a>
-              <div class="card-body">
-                <h2 class="h5">Furniture &amp; Decor</h2>
-                <ul class="list-unstyled fs-sm mb-0">
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Lounge Seating</a><span class="fs-ms text-muted">374</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>File Cabinets</a><span class="fs-ms text-muted">83</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Tables</a><span class="fs-ms text-muted">125</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Indoor Lighting</a><span class="fs-ms text-muted">291</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Office Chairs</a><span class="fs-ms text-muted">118</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Adjustable Height Desks</a><span class="fs-ms text-muted">46</span></li>
-                  <li>...</li>
-                  <li>
-                    <hr>
-                  </li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>View all</a><span class="fs-ms text-muted">960</span></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- Catogory-->
-          <div class="col-md-4 col-sm-6 mb-3">
-            <div class="card border-0"><a class="d-block overflow-hidden rounded-3" href="shop-grid-ls.php"><img class="d-block w-100" src="img/shop/categories/05.jpg" alt="Accessories"></a>
-              <div class="card-body">
-                <h2 class="h5">Accessories</h2>
-                <ul class="list-unstyled fs-sm mb-0">
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Bags</a><span class="fs-ms text-muted">417</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Sunglasses</a><span class="fs-ms text-muted">382</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Watches</a><span class="fs-ms text-muted">122</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Hats</a><span class="fs-ms text-muted">204</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Jewelry</a><span class="fs-ms text-muted">149</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Cosmetics</a><span class="fs-ms text-muted">90</span></li>
-                  <li>...</li>
-                  <li>
-                    <hr>
-                  </li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>View all</a><span class="fs-ms text-muted">1,532</span></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- Catogory-->
-          <div class="col-md-4 col-sm-6 mb-3">
-            <div class="card border-0"><a class="d-block overflow-hidden rounded-3" href="shop-grid-ls.php"><img class="d-block w-100" src="img/shop/categories/06.jpg" alt="Entertainment"></a>
-              <div class="card-body">
-                <h2 class="h5">Entertainment</h2>
-                <ul class="list-unstyled fs-sm mb-0">
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Video Games, VR</a><span class="fs-ms text-muted">306</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Kid's Toys</a><span class="fs-ms text-muted">231</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Table Games</a><span class="fs-ms text-muted">114</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Outdoor / Camping</a><span class="fs-ms text-muted">92</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Gifts</a><span class="fs-ms text-muted">27</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Music, CDs &amp; Vinyl</a><span class="fs-ms text-muted">41</span></li>
-                  <li>...</li>
-                  <li>
-                    <hr>
-                  </li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>View all</a><span class="fs-ms text-muted">879</span></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Popular brands-->
-        <h2 class="h3 text-center py-4 mt-md-3">Popular brands</h2>
+      <div class="container pb-5 mb-2 mb-md-4">
         <div class="row">
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/01.png" width="150" alt="Brand"></a></div>
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/02.png" width="150" alt="Brand"></a></div>
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/03.png" width="150" alt="Brand"></a></div>
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/04.png" width="150" alt="Brand"></a></div>
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/05.png" width="150" alt="Brand"></a></div>
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/06.png" width="150" alt="Brand"></a></div>
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/07.png" width="150" alt="Brand"></a></div>
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/08.png" width="150" alt="Brand"></a></div>
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/09.png" width="150" alt="Brand"></a></div>
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/10.png" width="150" alt="Brand"></a></div>
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/11.png" width="150" alt="Brand"></a></div>
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/12.png" width="150" alt="Brand"></a></div>
+          <section class="col-lg-8">
+            <!-- Steps-->
+            <div class="steps steps-light pt-2 pb-3 mb-5"><a class="step-item active" href="shop-cart.php">
+                <div class="step-progress"><span class="step-count">1</span></div>
+                <div class="step-label"><i class="ci-cart"></i>Cart</div></a><a class="step-item active current" href="checkout-details.php">
+                <div class="step-progress"><span class="step-count">2</span></div>
+                <div class="step-label"><i class="ci-user-circle"></i>Details</div></a><a class="step-item" href="checkout-shipping.php">
+                <div class="step-progress"><span class="step-count">3</span></div>
+                <div class="step-label"><i class="ci-package"></i>Shipping</div></a><a class="step-item" href="checkout-payment.php">
+                <div class="step-progress"><span class="step-count">4</span></div>
+                <div class="step-label"><i class="ci-card"></i>Payment</div></a><a class="step-item" href="checkout-review.php">
+                <div class="step-progress"><span class="step-count">5</span></div>
+                <div class="step-label"><i class="ci-check-circle"></i>Review</div></a></div>
+            <!-- Autor info-->
+            <div class="d-sm-flex justify-content-between align-items-center bg-secondary p-4 rounded-3 mb-grid-gutter">
+              <div class="d-flex align-items-center">
+                <div class="img-thumbnail rounded-circle position-relative flex-shrink-0"><span class="badge bg-warning position-absolute end-0 mt-n2" data-bs-toggle="tooltip" title="Reward points">384</span><img class="rounded-circle" src="img/shop/account/avatar.jpg" width="90" alt="Susan Gardner"></div>
+                <div class="ps-3">
+                  <h3 class="fs-base mb-0">Susan Gardner</h3><span class="text-accent fs-sm">s.gardner@example.com</span>
+                </div>
+              </div><a class="btn btn-light btn-sm btn-shadow mt-3 mt-sm-0" href="account-profile.php"><i class="ci-edit me-2"></i>Edit profile</a>
+            </div>
+            <!-- Shipping address-->
+            <h2 class="h6 pt-1 pb-3 mb-3 border-bottom">Shipping address</h2>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="mb-3">
+                  <label class="form-label" for="checkout-fn">First Name</label>
+                  <input class="form-control" type="text" id="checkout-fn">
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="mb-3">
+                  <label class="form-label" for="checkout-ln">Last Name</label>
+                  <input class="form-control" type="text" id="checkout-ln">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="mb-3">
+                  <label class="form-label" for="checkout-email">E-mail Address</label>
+                  <input class="form-control" type="email" id="checkout-email">
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="mb-3">
+                  <label class="form-label" for="checkout-phone">Phone Number</label>
+                  <input class="form-control" type="text" id="checkout-phone">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="mb-3">
+                  <label class="form-label" for="checkout-company">Company</label>
+                  <input class="form-control" type="text" id="checkout-company">
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="mb-3">
+                  <label class="form-label" for="checkout-country">Country</label>
+                  <select class="form-select" id="checkout-country">
+                    <option>Choose country</option>
+                    <option>Australia</option>
+                    <option>Canada</option>
+                    <option>France</option>
+                    <option>Germany</option>
+                    <option>Switzerland</option>
+                    <option>USA</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="mb-3">
+                  <label class="form-label" for="checkout-city">Country</label>
+                  <select class="form-select" id="checkout-city">
+                    <option>Choose city</option>
+                    <option>Amsterdam</option>
+                    <option>Berlin</option>
+                    <option>Geneve</option>
+                    <option>New York</option>
+                    <option>Paris</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="mb-3">
+                  <label class="form-label" for="checkout-zip">ZIP Code</label>
+                  <input class="form-control" type="text" id="checkout-zip">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="mb-3">
+                  <label class="form-label" for="checkout-address-1">Address 1</label>
+                  <input class="form-control" type="text" id="checkout-address-1">
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="mb-3">
+                  <label class="form-label" for="checkout-address-2">Address 2</label>
+                  <input class="form-control" type="text" id="checkout-address-2">
+                </div>
+              </div>
+            </div>
+            <h6 class="mb-3 py-3 border-bottom">Billing address</h6>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" checked id="same-address">
+              <label class="form-check-label" for="same-address">Same as shipping address</label>
+            </div>
+            <!-- Navigation (desktop)-->
+            <div class="d-none d-lg-flex pt-4 mt-3">
+              <div class="w-50 pe-3"><a class="btn btn-secondary d-block w-100" href="shop-cart.php"><i class="ci-arrow-left mt-sm-0 me-1"></i><span class="d-none d-sm-inline">Back to Cart</span><span class="d-inline d-sm-none">Back</span></a></div>
+              <div class="w-50 ps-2"><a class="btn btn-primary d-block w-100" href="checkout-shipping.php"><span class="d-none d-sm-inline">Proceed to Shipping</span><span class="d-inline d-sm-none">Next</span><i class="ci-arrow-right mt-sm-0 ms-1"></i></a></div>
+            </div>
+          </section>
+          <!-- Sidebar-->
+          <aside class="col-lg-4 pt-4 pt-lg-0 ps-xl-5">
+            <div class="bg-white rounded-3 shadow-lg p-4 ms-lg-auto">
+              <div class="py-2 px-xl-2">
+                <div class="widget mb-3">
+                  <h2 class="widget-title text-center">Order summary</h2>
+                  <div class="d-flex align-items-center pb-2 border-bottom"><a class="d-block flex-shrink-0" href="shop-single-v1.php"><img src="img/shop/cart/widget/01.jpg" width="64" alt="Product"></a>
+                    <div class="ps-2">
+                      <h6 class="widget-product-title"><a href="shop-single-v1.php">Women Colorblock Sneakers</a></h6>
+                      <div class="widget-product-meta"><span class="text-accent me-2">$150.<small>00</small></span><span class="text-muted">x 1</span></div>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center py-2 border-bottom"><a class="d-block flex-shrink-0" href="shop-single-v1.php"><img src="img/shop/cart/widget/02.jpg" width="64" alt="Product"></a>
+                    <div class="ps-2">
+                      <h6 class="widget-product-title"><a href="shop-single-v1.php">TH Jeans City Backpack</a></h6>
+                      <div class="widget-product-meta"><span class="text-accent me-2">$79.<small>50</small></span><span class="text-muted">x 1</span></div>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center py-2 border-bottom"><a class="d-block flex-shrink-0" href="shop-single-v1.php"><img src="img/shop/cart/widget/03.jpg" width="64" alt="Product"></a>
+                    <div class="ps-2">
+                      <h6 class="widget-product-title"><a href="shop-single-v1.php">3-Color Sun Stash Hat</a></h6>
+                      <div class="widget-product-meta"><span class="text-accent me-2">$22.<small>50</small></span><span class="text-muted">x 1</span></div>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center py-2 border-bottom"><a class="d-block flex-shrink-0" href="shop-single-v1.php"><img src="img/shop/cart/widget/04.jpg" width="64" alt="Product"></a>
+                    <div class="ps-2">
+                      <h6 class="widget-product-title"><a href="shop-single-v1.php">Cotton Polo Regular Fit</a></h6>
+                      <div class="widget-product-meta"><span class="text-accent me-2">$9.<small>00</small></span><span class="text-muted">x 1</span></div>
+                    </div>
+                  </div>
+                </div>
+                <ul class="list-unstyled fs-sm pb-2 border-bottom">
+                  <li class="d-flex justify-content-between align-items-center"><span class="me-2">Subtotal:</span><span class="text-end">$265.<small>00</small></span></li>
+                  <li class="d-flex justify-content-between align-items-center"><span class="me-2">Shipping:</span><span class="text-end">—</span></li>
+                  <li class="d-flex justify-content-between align-items-center"><span class="me-2">Taxes:</span><span class="text-end">$9.<small>50</small></span></li>
+                  <li class="d-flex justify-content-between align-items-center"><span class="me-2">Discount:</span><span class="text-end">—</span></li>
+                </ul>
+                <h3 class="fw-normal text-center my-4">$274.<small>50</small></h3>
+                <form class="needs-validation" method="post" novalidate>
+                  <div class="mb-3">
+                    <input class="form-control" type="text" placeholder="Promo code" required>
+                    <div class="invalid-feedback">Please provide promo code.</div>
+                  </div>
+                  <button class="btn btn-outline-primary d-block w-100" type="submit">Apply promo code</button>
+                </form>
+              </div>
+            </div>
+          </aside>
+        </div>
+        <!-- Navigation (mobile)-->
+        <div class="row d-lg-none">
+          <div class="col-lg-8">
+            <div class="d-flex pt-4 mt-3">
+              <div class="w-50 pe-3"><a class="btn btn-secondary d-block w-100" href="shop-cart.php"><i class="ci-arrow-left mt-sm-0 me-1"></i><span class="d-none d-sm-inline">Back to Cart</span><span class="d-inline d-sm-none">Back</span></a></div>
+              <div class="w-50 ps-2"><a class="btn btn-primary d-block w-100" href="checkout-shipping.php"><span class="d-none d-sm-inline">Proceed to Shipping</span><span class="d-inline d-sm-none">Next</span><i class="ci-arrow-right mt-sm-0 ms-1"></i></a></div>
+            </div>
+          </div>
         </div>
       </div>
     </main>

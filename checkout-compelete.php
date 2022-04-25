@@ -1,5 +1,134 @@
- <!-- Footer-->
- <footer class="footer bg-dark pt-5">
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Cartzilla | Checkout Complete</title>
+    <!-- SEO Meta Tags-->
+    <meta name="description" content="Cartzilla - Bootstrap E-commerce Template">
+    <meta name="keywords" content="bootstrap, shop, e-commerce, market, modern, responsive,  business, mobile, bootstrap, html5, css3, js, gallery, slider, touch, creative, clean">
+    <meta name="author" content="Createx Studio">
+    <!-- Viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon and Touch Icons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" color="#fe6a6a" href="safari-pinned-tab.svg">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Vendor Styles including: Font Icons, Plugins, etc.-->
+    <link rel="stylesheet" media="screen" href="vendor/simplebar/dist/simplebar.min.css"/>
+    <link rel="stylesheet" media="screen" href="vendor/tiny-slider/dist/tiny-slider.css"/>
+    <!-- Main Theme Styles + Bootstrap-->
+    <link rel="stylesheet" media="screen" href="css/theme.min.css">
+    <!-- Google Tag Manager-->
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-WKV3GT5');
+    </script>
+  </head>
+  <!-- Body-->
+  <body class="handheld-toolbar-enabled">
+    <!-- Google Tag Manager (noscript)-->
+    <noscript>
+      <iframe src="//www.googletagmanager.com/ns.php?id=GTM-WKV3GT5" height="0" width="0" style="display: none; visibility: hidden;"></iframe>
+    </noscript>
+    <!-- Sign in / sign up modal-->
+    <div class="modal fade" id="signin-modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header bg-secondary">
+            <ul class="nav nav-tabs card-header-tabs" role="tablist">
+              <li class="nav-item"><a class="nav-link fw-medium active" href="#signin-tab" data-bs-toggle="tab" role="tab" aria-selected="true"><i class="ci-unlocked me-2 mt-n1"></i>Sign in</a></li>
+              <li class="nav-item"><a class="nav-link fw-medium" href="#signup-tab" data-bs-toggle="tab" role="tab" aria-selected="false"><i class="ci-user me-2 mt-n1"></i>Sign up</a></li>
+            </ul>
+            <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body tab-content py-4">
+            <form class="needs-validation tab-pane fade show active" autocomplete="off" novalidate id="signin-tab">
+              <div class="mb-3">
+                <label class="form-label" for="si-email">Email address</label>
+                <input class="form-control" type="email" id="si-email" placeholder="johndoe@example.com" required>
+                <div class="invalid-feedback">Please provide a valid email address.</div>
+              </div>
+              <div class="mb-3">
+                <label class="form-label" for="si-password">Password</label>
+                <div class="password-toggle">
+                  <input class="form-control" type="password" id="si-password" required>
+                  <label class="password-toggle-btn" aria-label="Show/hide password">
+                    <input class="password-toggle-check" type="checkbox"><span class="password-toggle-indicator"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="mb-3 d-flex flex-wrap justify-content-between">
+                <div class="form-check mb-2">
+                  <input class="form-check-input" type="checkbox" id="si-remember">
+                  <label class="form-check-label" for="si-remember">Remember me</label>
+                </div><a class="fs-sm" href="#">Forgot password?</a>
+              </div>
+              <button class="btn btn-primary btn-shadow d-block w-100" type="submit">Sign in</button>
+            </form>
+            <form class="needs-validation tab-pane fade" autocomplete="off" novalidate id="signup-tab">
+              <div class="mb-3">
+                <label class="form-label" for="su-name">Full name</label>
+                <input class="form-control" type="text" id="su-name" placeholder="John Doe" required>
+                <div class="invalid-feedback">Please fill in your name.</div>
+              </div>
+              <div class="mb-3">
+                <label for="su-email">Email address</label>
+                <input class="form-control" type="email" id="su-email" placeholder="johndoe@example.com" required>
+                <div class="invalid-feedback">Please provide a valid email address.</div>
+              </div>
+              <div class="mb-3">
+                <label class="form-label" for="su-password">Password</label>
+                <div class="password-toggle">
+                  <input class="form-control" type="password" id="su-password" required>
+                  <label class="password-toggle-btn" aria-label="Show/hide password">
+                    <input class="password-toggle-check" type="checkbox"><span class="password-toggle-indicator"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label class="form-label" for="su-password-confirm">Confirm password</label>
+                <div class="password-toggle">
+                  <input class="form-control" type="password" id="su-password-confirm" required>
+                  <label class="password-toggle-btn" aria-label="Show/hide password">
+                    <input class="password-toggle-check" type="checkbox"><span class="password-toggle-indicator"></span>
+                  </label>
+                </div>
+              </div>
+              <button class="btn btn-primary btn-shadow d-block w-100" type="submit">Sign up</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main class="page-wrapper">
+      <!-- Navbar 3 Level (Light)-->
+      <?php
+
+include 'header.php';
+?>>
+      <div class="container pb-5 mb-sm-4">
+        <div class="pt-5">
+          <div class="card py-3 mt-sm-3">
+            <div class="card-body text-center">
+              <h2 class="h4 pb-3">Thank you for your order!</h2>
+              <p class="fs-sm mb-2">Your order has been placed and will be processed as soon as possible.</p>
+              <p class="fs-sm mb-2">Make sure you make note of your order number, which is <span class='fw-medium'>34VB5540K83.</span></p>
+              <p class="fs-sm">You will be receiving an email shortly with confirmation of your order. <u>You can now:</u></p><a class="btn btn-secondary mt-3 me-3" href="shop-grid-ls.php">Go back shopping</a><a class="btn btn-primary mt-3" href="order-tracking.php"><i class="ci-location"></i>&nbsp;Track order</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Footer-->
+    <footer class="footer bg-dark pt-5">
       <div class="container">
         <div class="row pb-2">
           <div class="col-md-4 col-sm-6">
@@ -141,7 +270,7 @@
               <div class="mb-3"><a class="btn-social bs-light bs-twitter ms-2 mb-2" href="#"><i class="ci-twitter"></i></a><a class="btn-social bs-light bs-facebook ms-2 mb-2" href="#"><i class="ci-facebook"></i></a><a class="btn-social bs-light bs-instagram ms-2 mb-2" href="#"><i class="ci-instagram"></i></a><a class="btn-social bs-light bs-pinterest ms-2 mb-2" href="#"><i class="ci-pinterest"></i></a><a class="btn-social bs-light bs-youtube ms-2 mb-2" href="#"><i class="ci-youtube"></i></a></div><img class="d-inline-block" src="img/cards-alt.png" width="187" alt="Payment methods">
             </div>
           </div>
-          <div class="pb-4 fs-xs text-light opacity-50 text-center text-md-start">© All rights reserved. Made by <a class="text-light" href="https://createx.studio/" target="_blank" rel="noopener">Abd-El-Rahman Mahmoud</a></div>
+          <div class="pb-4 fs-xs text-light opacity-50 text-center text-md-start">© All rights reserved. Made by <a class="text-light" href="https://createx.studio/" target="_blank" rel="noopener">Createx Studio</a></div>
         </div>
       </div>
     </footer>
@@ -155,7 +284,6 @@
     <script src="vendor/simplebar/dist/simplebar.min.js"></script>
     <script src="vendor/tiny-slider/dist/min/tiny-slider.js"></script>
     <script src="vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
-    <script src="vendor/drift-zoom/dist/Drift.min.js"></script>
     <!-- Main theme script-->
     <script src="js/theme.min.js"></script>
   </body>

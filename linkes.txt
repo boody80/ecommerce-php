@@ -1,0 +1,20 @@
+demo4.madrasthemes.com/cartzilla/fashion-store-v-1/      index.php
+demo4.madrasthemes.com/cartzilla/marketplace/cart/       marketplace-cart.php
+demo4.madrasthemes.com/cartzilla/marketplace/checkout/       marketplace-checkout.php
+demo4.madrasthemes.com/cartzilla/cart/              shop-cart.php
+demo4.madrasthemes.com/cartzilla/checkout/          check-cart.php
+demo4.madrasthemes.com/cartzilla/order-tracking         ordertracking.php
+demo4.madrasthemes.com/cartzilla/product-comparison          product-comparision.php
+demo4.madrasthemes.com/cartzilla/my-account/orders         account-order.php
+demo4.madrasthemes.com/cartzilla/my-account/edit-account    account-profile.php
+demo4.madrasthemes.com/cartzilla/my-account/edit-address     account-address.php
+demo4.madrasthemes.com/cartzilla/my-account/downloads          
+demo4.madrasthemes.com/cartzilla/my-account/payment-methods         account-payment.php 
+demo4.madrasthemes.com/cartzilla/marketplace/dashboard/settings/store    dashboard-settings.php
+demo4.madrasthemes.com/cartzilla/marketplace/dashboard         dashboard.php
+demo4.madrasthemes.com/cartzilla/marketplace/dashboard/products       dashboard-products.php
+demo4.madrasthemes.com/cartzilla/my-account/lost-password          account-password-recovery.php
+demo4.madrasthemes.com/cartzilla/my-account       account-profile.php
+demo4.madrasthemes.com/cartzilla/about-us          about.php
+demo4.madrasthemes.com/cartzilla/contacts        contact.php
+demo4.madrasthemes.com/cartzilla/404notfound/?404_style=style-v1          404-simple.php

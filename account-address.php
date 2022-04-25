@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Cartzilla | Shop categories</title>
+    <title>Cartzilla | My addresses</title>
     <!-- SEO Meta Tags-->
     <meta name="description" content="Cartzilla - Bootstrap E-commerce Template">
     <meta name="keywords" content="bootstrap, shop, e-commerce, market, modern, responsive,  business, mobile, bootstrap, html5, css3, js, gallery, slider, touch, creative, clean">
@@ -109,174 +109,171 @@
       </div>
     </div>
     <main class="page-wrapper">
+      <!-- Add New Address-->
+      <form class="needs-validation modal fade" method="post" id="add-address" tabindex="-1" novalidate>
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Add a new address</h5>
+              <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row gx-4 gy-3">
+                <div class="col-sm-6">
+                  <label class="form-label" for="address-fn">First name</label>
+                  <input class="form-control" type="text" id="address-fn" required>
+                  <div class="invalid-feedback">Please fill in you first name!</div>
+                </div>
+                <div class="col-sm-6">
+                  <label class="form-label" for="address-ln">Last name</label>
+                  <input class="form-control" type="text" id="address-ln" required>
+                  <div class="invalid-feedback">Please fill in you last name!</div>
+                </div>
+                <div class="col-sm-6">
+                  <label class="form-label" for="address-company">Company</label>
+                  <input class="form-control" type="text" id="address-company">
+                </div>
+                <div class="col-sm-6">
+                  <label class="form-label" for="address-country">Country</label>
+                  <select class="form-select" id="address-country" required>
+                    <option value>Select country</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Belgium">Belgium</option>
+                    <option value="France">France</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Spain">Spain</option>
+                    <option value="UK">United Kingdom</option>
+                    <option value="USA">USA</option>
+                  </select>
+                  <div class="invalid-feedback">Please select your country!</div>
+                </div>
+                <div class="col-sm-6">
+                  <label class="form-label" for="address-city">City</label>
+                  <input class="form-control" type="text" id="address-city" required>
+                  <div class="invalid-feedback">Please fill in your city!</div>
+                </div>
+                <div class="col-sm-6">
+                  <label class="form-label" for="address-line1">Line 1</label>
+                  <input class="form-control" type="text" id="address-line1" required>
+                  <div class="invalid-feedback">Please fill in your address!</div>
+                </div>
+                <div class="col-sm-6">
+                  <label class="form-label" for="address-line2">Line 2</label>
+                  <input class="form-control" type="text" id="address-line2">
+                </div>
+                <div class="col-sm-6">
+                  <label class="form-label" for="address-zip">ZIP code</label>
+                  <input class="form-control" type="text" id="address-zip" required>
+                  <div class="invalid-feedback">Please add your ZIP code!</div>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="address-primary">
+                    <label class="form-check-label" for="address-primary">Make this address primary</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Close</button>
+              <button class="btn btn-primary btn-shadow" type="submit">Add address</button>
+            </div>
+          </div>
+        </div>
+      </form>
       <!-- Navbar 3 Level (Light)-->
       <?php
 
 include 'header.php';
 ?>
-      <!-- Page Title (Light)-->
-      <div class="bg-secondary py-4">
+      <!-- Page Title-->
+      <div class="page-title-overlap bg-dark pt-4">
         <div class="container d-lg-flex justify-content-between py-2 py-lg-3">
           <div class="order-lg-2 mb-3 mb-lg-0 pt-lg-2">
             <nav aria-label="breadcrumb">
-              <ol class="breadcrumb flex-lg-nowrap justify-content-center justify-content-lg-start">
+              <ol class="breadcrumb breadcrumb-light flex-lg-nowrap justify-content-center justify-content-lg-start">
                 <li class="breadcrumb-item"><a class="text-nowrap" href="index.php"><i class="ci-home"></i>Home</a></li>
-                <li class="breadcrumb-item text-nowrap"><a href="#">Shop</a>
+                <li class="breadcrumb-item text-nowrap"><a href="#">Account</a>
                 </li>
-                <li class="breadcrumb-item text-nowrap active" aria-current="page">Categories</li>
+                <li class="breadcrumb-item text-nowrap active" aria-current="page">Addresses</li>
               </ol>
             </nav>
           </div>
           <div class="order-lg-1 pe-lg-4 text-center text-lg-start">
-            <h1 class="h3 mb-0">Shop categories</h1>
+            <h1 class="h3 text-light mb-0">My addresses</h1>
           </div>
         </div>
       </div>
-      <div class="container pb-4 pb-sm-5">
-        <!-- Categories grid-->
-        <div class="row pt-5">
-          <!-- Catogory-->
-          <div class="col-md-4 col-sm-6 mb-3">
-            <div class="card border-0"><a class="d-block overflow-hidden rounded-3" href="shop-grid-ls.php"><img class="d-block w-100" src="img/shop/categories/01.jpg" alt="Clothing"></a>
-              <div class="card-body">
-                <h2 class="h5">Clothing</h2>
-                <ul class="list-unstyled fs-sm mb-0">
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Blazers &amp; Suits</a><span class="fs-ms text-muted">235</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Blouse</a><span class="fs-ms text-muted">410</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Cardigans &amp; Jumpers</a><span class="fs-ms text-muted">107</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Dresses</a><span class="fs-ms text-muted">93</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Hoodie &amp; Sweatshirts</a><span class="fs-ms text-muted">93</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Sportswear</a><span class="fs-ms text-muted">65</span></li>
-                  <li>...</li>
-                  <li>
-                    <hr>
-                  </li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>View all</a><span class="fs-ms text-muted">2,548</span></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- Catogory-->
-          <div class="col-md-4 col-sm-6 mb-3">
-            <div class="card border-0"><a class="d-block overflow-hidden rounded-3" href="shop-grid-ls.php"><img class="d-block w-100" src="img/shop/categories/02.jpg" alt="Shoes"></a>
-              <div class="card-body">
-                <h2 class="h5">Shoes</h2>
-                <ul class="list-unstyled fs-sm mb-0">
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Pumps &amp; High Heels</a><span class="fs-ms text-muted">247</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Ballerinas &amp; Flats</a><span class="fs-ms text-muted">156</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Sandals</a><span class="fs-ms text-muted">310</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Sneakers</a><span class="fs-ms text-muted">402</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Boots</a><span class="fs-ms text-muted">393</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Flip Flops</a><span class="fs-ms text-muted">116</span></li>
-                  <li>...</li>
-                  <li>
-                    <hr>
-                  </li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>View all</a><span class="fs-ms text-muted">1,953</span></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- Catogory-->
-          <div class="col-md-4 col-sm-6 mb-3">
-            <div class="card border-0"><a class="d-block overflow-hidden rounded-3" href="shop-grid-ls.php"><img class="d-block w-100" src="img/shop/categories/03.jpg" alt="Gadgets"></a>
-              <div class="card-body">
-                <h2 class="h5">Gadgets</h2>
-                <ul class="list-unstyled fs-sm mb-0">
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Smartphones &amp; Tablets</a><span class="fs-ms text-muted">436</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Headphones</a><span class="fs-ms text-muted">308</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Wearable Electronics</a><span class="fs-ms text-muted">195</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Home IoT Gadgets</a><span class="fs-ms text-muted">82</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Computers &amp; Accessories</a><span class="fs-ms text-muted">264</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Cameras, Photo &amp; Video</a><span class="fs-ms text-muted">57</span></li>
-                  <li>...</li>
-                  <li>
-                    <hr>
-                  </li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>View all</a><span class="fs-ms text-muted">1,240</span></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- Catogory-->
-          <div class="col-md-4 col-sm-6 mb-3">
-            <div class="card border-0"><a class="d-block overflow-hidden rounded-3" href="shop-grid-ls.php"><img class="d-block w-100" src="img/shop/categories/04.jpg" alt="Furniture"></a>
-              <div class="card-body">
-                <h2 class="h5">Furniture &amp; Decor</h2>
-                <ul class="list-unstyled fs-sm mb-0">
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Lounge Seating</a><span class="fs-ms text-muted">374</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>File Cabinets</a><span class="fs-ms text-muted">83</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Tables</a><span class="fs-ms text-muted">125</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Indoor Lighting</a><span class="fs-ms text-muted">291</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Office Chairs</a><span class="fs-ms text-muted">118</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Adjustable Height Desks</a><span class="fs-ms text-muted">46</span></li>
-                  <li>...</li>
-                  <li>
-                    <hr>
-                  </li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>View all</a><span class="fs-ms text-muted">960</span></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- Catogory-->
-          <div class="col-md-4 col-sm-6 mb-3">
-            <div class="card border-0"><a class="d-block overflow-hidden rounded-3" href="shop-grid-ls.php"><img class="d-block w-100" src="img/shop/categories/05.jpg" alt="Accessories"></a>
-              <div class="card-body">
-                <h2 class="h5">Accessories</h2>
-                <ul class="list-unstyled fs-sm mb-0">
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Bags</a><span class="fs-ms text-muted">417</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Sunglasses</a><span class="fs-ms text-muted">382</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Watches</a><span class="fs-ms text-muted">122</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Hats</a><span class="fs-ms text-muted">204</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Jewelry</a><span class="fs-ms text-muted">149</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Cosmetics</a><span class="fs-ms text-muted">90</span></li>
-                  <li>...</li>
-                  <li>
-                    <hr>
-                  </li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>View all</a><span class="fs-ms text-muted">1,532</span></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- Catogory-->
-          <div class="col-md-4 col-sm-6 mb-3">
-            <div class="card border-0"><a class="d-block overflow-hidden rounded-3" href="shop-grid-ls.php"><img class="d-block w-100" src="img/shop/categories/06.jpg" alt="Entertainment"></a>
-              <div class="card-body">
-                <h2 class="h5">Entertainment</h2>
-                <ul class="list-unstyled fs-sm mb-0">
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Video Games, VR</a><span class="fs-ms text-muted">306</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Kid's Toys</a><span class="fs-ms text-muted">231</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Table Games</a><span class="fs-ms text-muted">114</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Outdoor / Camping</a><span class="fs-ms text-muted">92</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Gifts</a><span class="fs-ms text-muted">27</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>Music, CDs &amp; Vinyl</a><span class="fs-ms text-muted">41</span></li>
-                  <li>...</li>
-                  <li>
-                    <hr>
-                  </li>
-                  <li class="d-flex align-items-center justify-content-between"><a class="nav-link-style" href="#"><i class="ci-arrow-right-circle me-2"></i>View all</a><span class="fs-ms text-muted">879</span></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Popular brands-->
-        <h2 class="h3 text-center py-4 mt-md-3">Popular brands</h2>
+      <div class="container pb-5 mb-2 mb-md-4">
         <div class="row">
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/01.png" width="150" alt="Brand"></a></div>
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/02.png" width="150" alt="Brand"></a></div>
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/03.png" width="150" alt="Brand"></a></div>
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/04.png" width="150" alt="Brand"></a></div>
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/05.png" width="150" alt="Brand"></a></div>
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/06.png" width="150" alt="Brand"></a></div>
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/07.png" width="150" alt="Brand"></a></div>
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/08.png" width="150" alt="Brand"></a></div>
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/09.png" width="150" alt="Brand"></a></div>
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/10.png" width="150" alt="Brand"></a></div>
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/11.png" width="150" alt="Brand"></a></div>
-          <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/12.png" width="150" alt="Brand"></a></div>
+          <!-- Sidebar-->
+          <aside class="col-lg-4 pt-4 pt-lg-0 pe-xl-5">
+            <div class="bg-white rounded-3 shadow-lg pt-1 mb-5 mb-lg-0">
+              <div class="d-md-flex justify-content-between align-items-center text-center text-md-start p-4">
+                <div class="d-md-flex align-items-center">
+                  <div class="img-thumbnail rounded-circle position-relative flex-shrink-0 mx-auto mb-2 mx-md-0 mb-md-0" style="width: 6.375rem;"><span class="badge bg-warning position-absolute end-0 mt-n2" data-bs-toggle="tooltip" title="Reward points">384</span><img class="rounded-circle" src="img/shop/account/avatar.jpg" alt="Susan Gardner"></div>
+                  <div class="ps-md-3">
+                    <h3 class="fs-base mb-0">Susan Gardner</h3><span class="text-accent fs-sm">s.gardner@example.com</span>
+                  </div>
+                </div><a class="btn btn-primary d-lg-none mb-2 mt-3 mt-md-0" href="#account-menu" data-bs-toggle="collapse" aria-expanded="false"><i class="ci-menu me-2"></i>Account menu</a>
+              </div>
+              <div class="d-lg-block collapse" id="account-menu">
+                <div class="bg-secondary px-4 py-3">
+                  <h3 class="fs-sm mb-0 text-muted">Dashboard</h3>
+                </div>
+                <ul class="list-unstyled mb-0">
+                  <li class="border-bottom mb-0"><a class="nav-link-style d-flex align-items-center px-4 py-3" href="account-orders.php"><i class="ci-bag opacity-60 me-2"></i>Orders<span class="fs-sm text-muted ms-auto">1</span></a></li>
+                  <li class="border-bottom mb-0"><a class="nav-link-style d-flex align-items-center px-4 py-3" href="account-wishlist.php"><i class="ci-heart opacity-60 me-2"></i>Wishlist<span class="fs-sm text-muted ms-auto">3</span></a></li>
+                  <li class="mb-0"><a class="nav-link-style d-flex align-items-center px-4 py-3" href="account-tickets.php"><i class="ci-help opacity-60 me-2"></i>Support tickets<span class="fs-sm text-muted ms-auto">1</span></a></li>
+                </ul>
+                <div class="bg-secondary px-4 py-3">
+                  <h3 class="fs-sm mb-0 text-muted">Account settings</h3>
+                </div>
+                <ul class="list-unstyled mb-0">
+                  <li class="border-bottom mb-0"><a class="nav-link-style d-flex align-items-center px-4 py-3" href="account-profile.php"><i class="ci-user opacity-60 me-2"></i>Profile info</a></li>
+                  <li class="border-bottom mb-0"><a class="nav-link-style d-flex align-items-center px-4 py-3 active" href="account-address.php"><i class="ci-location opacity-60 me-2"></i>Addresses</a></li>
+                  <li class="mb-0"><a class="nav-link-style d-flex align-items-center px-4 py-3" href="account-payment.php"><i class="ci-card opacity-60 me-2"></i>Payment methods</a></li>
+                  <li class="d-lg-none border-top mb-0"><a class="nav-link-style d-flex align-items-center px-4 py-3" href="account-signin.php"><i class="ci-sign-out opacity-60 me-2"></i>Sign out</a></li>
+                </ul>
+              </div>
+            </div>
+          </aside>
+          <!-- Content  -->
+          <section class="col-lg-8">
+            <!-- Toolbar-->
+            <div class="d-none d-lg-flex justify-content-between align-items-center pt-lg-3 pb-4 pb-lg-5 mb-lg-3">
+              <h6 class="fs-base text-light mb-0">List of your registered addresses:</h6><a class="btn btn-primary btn-sm" href="account-signin.php"><i class="ci-sign-out me-2"></i>Sign out</a>
+            </div>
+            <!-- Addresses list-->
+            <div class="table-responsive fs-md">
+              <table class="table table-hover mb-0">
+                <thead>
+                  <tr>
+                    <th>Address</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="py-3 align-middle">396 Lillian Blvd, Holbrook, NY 11741, USA<span class="align-middle badge bg-info ms-2">Primary</span></td>
+                    <td class="py-3 align-middle"><a class="nav-link-style me-2" href="#" data-bs-toggle="tooltip" title="Edit"><i class="ci-edit"></i></a><a class="nav-link-style text-danger" href="#" data-bs-toggle="tooltip" title="Remove">
+                        <div class="ci-trash"></div></a></td>
+                  </tr>
+                  <tr>
+                    <td class="py-3 align-middle">769, Industrial, West Chicago, IL 60185, USA</td>
+                    <td class="py-3 align-middle"><a class="nav-link-style me-2" href="#" data-bs-toggle="tooltip" title="Edit"><i class="ci-edit"></i></a><a class="nav-link-style text-danger" href="#" data-bs-toggle="tooltip" title="Remove">
+                        <div class="ci-trash"></div></a></td>
+                  </tr>
+                  <tr>
+                    <td class="py-3 align-middle">514 S. Magnolia St. Orlando, FL 32806, USA</td>
+                    <td class="py-3 align-middle"><a class="nav-link-style me-2" href="#" data-bs-toggle="tooltip" title="Edit"><i class="ci-edit"></i></a><a class="nav-link-style text-danger" href="#" data-bs-toggle="tooltip" title="Remove">
+                        <div class="ci-trash"></div></a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="text-sm-end pt-4"><a class="btn btn-primary" href="#add-address" data-bs-toggle="modal">Add new address</a></div>
+          </section>
         </div>
       </div>
     </main>
